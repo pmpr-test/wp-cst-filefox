@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e77a28575             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Custom\Filefox\Frontend\Page\Request; use Pmpr\Common\Foundation\Interfaces\Constants; class Download extends Common { public function __construct() { $this->slug = Constants::kucuwimmakgiieom; parent::__construct(); } public function gogaagekwoisaqgu() { $this->title = __("\x52\x65\x71\x75\x65\163\164\40\106\x69\154\x65", PR__CST__FILEFOX); parent::gogaagekwoisaqgu(); } public function rsysgcucogueguuk() : array { return ["\164\162\x61\x63\x6b\137\164\x69\x74\154\x65" => __("\124\162\141\143\153\x20\x52\145\161\x75\145\x73\x74", PR__CST__FILEFOX), "\x74\162\x61\143\x6b\x5f\141\143\x74\x69\157\156" => "\146\x66\x5f\164\x69\143\153\145\164\137\147\145\164\137\x74\162\141\143\x6b\137\146\x6f\162\155", "\163\165\142\155\x69\x74\x5f\x74\151\x74\x6c\145" => __("\x53\165\x62\x6d\x69\x74\40\x52\145\161\165\145\163\x74", PR__CST__FILEFOX), "\163\x75\142\155\151\x74\137\141\143\x74\151\157\x6e" => "\x66\146\137\164\x69\143\153\145\164\137\147\145\164\137\146\x69\x6c\145\137\162\x65\161\165\x65\163\x74\137\146\157\162\x6d"]; } public function enqueue() { $this->ewcsyqaaigkicgse("\164\151\x63\153\145\164\x5f\x65\x6e\161\x75\x65\165\145\137\x66\x6f\x72\x6d\137\141\163\x73\145\164\x73"); } }
