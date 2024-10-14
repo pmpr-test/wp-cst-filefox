@@ -1,32 +1,9 @@
 {
-  "name": "pmpr-cst/wp-cst-filefox",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Filefox Project Custom Logics",
-  "keywords": [
-    "wordpress",
-    "package",
-    "filefox"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "spatie/dropbox-api": "1.21.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Custom\\Filefox\\": "src/Pmpr/Custom/Filefox"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
   "tag": "1.0.49",
-  "timestamp": "1728905221"
+  "timestamp": "1728923307"
 }
