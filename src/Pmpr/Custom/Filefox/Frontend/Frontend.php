@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6720b6c5a9508             |
+    |             672f20b688e00             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Filefox\Frontend; use Pmpr\Custom\Filefox\Frontend\Page\Page; class Frontend extends Common { public function mameiwsayuyquoeq() { Ajax::symcgieuakksimmu(); Page::symcgieuakksimmu(); } }
+ namespace Pmpr\Custom\Filefox\Frontend; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Custom\Filefox\Container; use Pmpr\Custom\Filefox\Frontend\Page\Download; use Pmpr\Custom\Filefox\Frontend\Page\Request\Download as RequestDownload; use Pmpr\Custom\Filefox\Frontend\Page\Request\Request; use Pmpr\Custom\Filefox\Frontend\Page\Request\Upload; use Pmpr\Custom\Filefox\Setting; use WC_Download_Handler; class Frontend extends Container { public function mameiwsayuyquoeq() { Download::symcgieuakksimmu(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->ligksaggegsygqwo()) { Upload::symcgieuakksimmu(); Request::symcgieuakksimmu(); RequestDownload::symcgieuakksimmu(); } if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq()) { Ajax::symcgieuakksimmu(); } } }
