@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2024-11-17 20:35+0330\n"
+"POT-Creation-Date: 2024-12-09 15:38+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -33,38 +33,38 @@ msgstr "اخبار"
 msgid "The News"
 msgstr "خبر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:169
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:347
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:171
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:349
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:107
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:23
 msgid "Material"
 msgstr "ماهیت"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:170
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:338
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:172
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:340
 #: src/Pmpr/Custom/Filefox/CTX/Application.php:22
 msgid "Application"
 msgstr "کاربرد"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:316
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:318
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:346
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:348
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:34
 #: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
 msgid "Medium"
 msgstr "رسانه"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:348
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:350
 msgid "Category"
 msgstr "دسته‌بندی"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:417
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:419
 msgid "Parent"
 msgstr "مادر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:424
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:426
 msgid "Order"
 msgstr "ترتیب"
 
@@ -86,7 +86,7 @@ msgstr "ماهیت برای محصولات"
 
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:41
 msgid "Icon"
-msgstr ""
+msgstr "آیکون"
 
 #: src/Pmpr/Custom/Filefox/CTX/Medium.php:21
 msgid "Mediums"
@@ -157,6 +157,22 @@ msgstr "درخواست"
 msgid "Provide File"
 msgstr "ارائه فایل"
 
+#: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:16
+#: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:16
+#, php-format
+msgid "FileFox Custom (%s)"
+msgstr "سفارشی فایل‌فاکس (%s)"
+
+#: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:34
+msgid "Content Manager"
+msgstr "مدیر محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:38
+msgid "Content Producer"
+msgstr "تولید کننده محتوا"
+
 #: src/Pmpr/Custom/Filefox/Setting.php:51
 msgid "Custom Setting"
 msgstr "تنظیمات سفارشی"
@@ -169,7 +185,7 @@ msgstr "دانلود با سرعت پایین"
 
 #: src/Pmpr/Custom/Filefox/Setting.php:69
 msgid "Pages"
-msgstr ""
+msgstr "صفحات"
 
 #: src/Pmpr/Custom/Filefox/Setting.php:73
 #, fuzzy
@@ -197,7 +213,7 @@ msgstr "بخش دانلود"
 
 #: src/Pmpr/Custom/Filefox/Setting.php:99
 msgid "Page"
-msgstr ""
+msgstr "صفحه"
 
 #: src/Pmpr/Custom/Filefox/Setting.php:104
 msgid "Download Button"
@@ -374,7 +390,7 @@ msgstr "غیر فعال‌‌"
 
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:46
 msgid "Readonly"
-msgstr ""
+msgstr "فقط خواندنی"
 
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:47
 #: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:34
@@ -469,25 +485,25 @@ msgstr "ارائه فایل"
 msgid "Versions"
 msgstr "نسخه‌های موجود"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:77
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:80
 msgid "Downloads"
 msgstr "دانلود‌ها"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:138
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:144
 #, php-format
 msgid "Download %s"
 msgstr "دانلود %s"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:155
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:161
 #, php-format
 msgid "%s times downloaded"
 msgstr "%s بار دانلود شده"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:165
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:171
 msgid "Add to Cart"
 msgstr "افزودن به سبد خرید"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:170
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:176
 msgid "Download File"
 msgstr "دانلود فایل"
 
