@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2024-12-09 15:38+0330\n"
+"POT-Creation-Date: 2025-01-07 13:27+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -33,38 +33,38 @@ msgstr "اخبار"
 msgid "The News"
 msgstr "خبر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:171
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:349
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:185
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:368
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:107
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:23
 msgid "Material"
 msgstr "ماهیت"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:172
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:340
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:186
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:360
 #: src/Pmpr/Custom/Filefox/CTX/Application.php:22
 msgid "Application"
 msgstr "کاربرد"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:318
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:336
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:348
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:367
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:34
 #: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
 msgid "Medium"
 msgstr "رسانه"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:350
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:369
 msgid "Category"
 msgstr "دسته‌بندی"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:419
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:436
 msgid "Parent"
 msgstr "مادر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:426
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:441
 msgid "Order"
 msgstr "ترتیب"
 
@@ -96,7 +96,7 @@ msgstr "رسانه‌ها"
 msgid "Medium for products"
 msgstr "رسانه برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/Filefox.php:25
+#: src/Pmpr/Custom/Filefox/Filefox.php:27
 msgid "Filefox Custom"
 msgstr "سفارشی فایل فاکس"
 
@@ -164,14 +164,68 @@ msgid "FileFox Custom (%s)"
 msgstr "سفارشی فایل‌فاکس (%s)"
 
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:34
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:78
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:38
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:82
 msgid "Content Producer"
 msgstr "تولید کننده محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Manager.php:20
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:44
+#, fuzzy
+#| msgid "Content Manager"
+msgid "Manager"
+msgstr "مدیر محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Manager.php:21
+#, fuzzy
+#| msgid "Content Manager"
+msgid "Managers"
+msgstr "مدیر محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Manager.php:38
+msgid "Invite Code"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Manager.php:43
+#: src/Pmpr/Custom/Filefox/Salary/Model/Producer.php:33
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:21
+msgid "Team"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Member.php:31
+msgid "User"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Producer.php:17
+#, fuzzy
+#| msgid "Content Producer"
+msgid "Producer"
+msgstr "تولید کننده محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Producer.php:18
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:49
+#, fuzzy
+#| msgid "Content Producer"
+msgid "Producers"
+msgstr "تولید کننده محتوا"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:22
+msgid "Teams"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:40
+msgid "Title"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:54
+#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
+msgid "Created At"
+msgstr ""
 
 #: src/Pmpr/Custom/Filefox/Setting.php:51
 msgid "Custom Setting"
@@ -355,12 +409,12 @@ msgstr "لیست دانلود"
 msgid "Download Title"
 msgstr "عنوان دانلود"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:20
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:53
+#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:21
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:54
 msgid "Account"
 msgstr "حساب کاربری"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:21
+#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:22
 msgid "Accounts"
 msgstr "حساب‌های کاربری"
 
@@ -393,7 +447,7 @@ msgid "Readonly"
 msgstr "فقط خواندنی"
 
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:47
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:34
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:35
 msgid "Status"
 msgstr "وضعیت"
 
@@ -430,38 +484,33 @@ msgid "Priority"
 msgstr "اولویت"
 
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:83
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:18
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:19
 #, fuzzy
 #| msgid "Applications"
 msgid "Replicas"
 msgstr "کاربردها"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:58
-msgid "Created At"
-msgstr ""
-
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:17
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:18
 msgid "Replica"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:32
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:33
 msgid "Successful"
 msgstr "موفق"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:33
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:34
 msgid "Failed"
 msgstr "ناموفق"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:38
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:39
 msgid "Attachment"
 msgstr "پیوست"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:43
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:44
 msgid "Link"
 msgstr "پیوند"
 
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:48
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:49
 msgid "Link Date"
 msgstr "تاریخ پیوند"
 
@@ -485,25 +534,29 @@ msgstr "ارائه فایل"
 msgid "Versions"
 msgstr "نسخه‌های موجود"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:80
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:79
+msgid "Free"
+msgstr "رایگان"
+
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:81
 msgid "Downloads"
 msgstr "دانلود‌ها"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:144
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:145
 #, php-format
 msgid "Download %s"
 msgstr "دانلود %s"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:161
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:162
 #, php-format
 msgid "%s times downloaded"
 msgstr "%s بار دانلود شده"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:171
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:172
 msgid "Add to Cart"
 msgstr "افزودن به سبد خرید"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:176
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:177
 msgid "Download File"
 msgstr "دانلود فایل"
 
