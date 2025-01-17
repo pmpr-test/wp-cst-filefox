@@ -4,4 +4,4 @@
     |             678a99a2347d7             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Filefox; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { }
+ namespace Pmpr\Custom\Filefox\Panel\Controller; class Team extends Controller { }
