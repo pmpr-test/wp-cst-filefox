@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-01-17 21:20+0330\n"
+"POT-Creation-Date: 2025-01-19 18:02+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -108,7 +108,7 @@ msgstr "رسانه‌ها"
 msgid "Medium for products"
 msgstr "رسانه برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/Filefox.php:28
+#: src/Pmpr/Custom/Filefox/Filefox.php:29
 msgid "Filefox Custom"
 msgstr "سفارشی فایل فاکس"
 
@@ -128,7 +128,7 @@ msgstr "قادر به یافتن فایل درخواستی نیستیم."
 #: src/Pmpr/Custom/Filefox/Frontend/Ajax.php:112
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:25
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:176
-#: src/Pmpr/Custom/Filefox/Setting.php:106
+#: src/Pmpr/Custom/Filefox/Setting.php:107
 #: src/Pmpr/Custom/Filefox/Storage/Storage.php:57
 msgid "Download"
 msgstr "دانلود"
@@ -144,12 +144,12 @@ msgid "File parameter missing."
 msgstr "پارامتر ضروری ارائه نشده‌اند."
 
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:174
-#: src/Pmpr/Custom/Filefox/Setting.php:116
+#: src/Pmpr/Custom/Filefox/Setting.php:117
 msgid "Start Download"
 msgstr "شروع دانلود"
 
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:19
-#: src/Pmpr/Custom/Filefox/Setting.php:66
+#: src/Pmpr/Custom/Filefox/Setting.php:67
 msgid "Request File"
 msgstr "درخواست فایل"
 
@@ -238,6 +238,14 @@ msgstr "تیم"
 msgid "User"
 msgstr "کاربر"
 
+#: src/Pmpr/Custom/Filefox/Salary/Model/Member.php:36
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:54
+#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:48
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
 #: src/Pmpr/Custom/Filefox/Salary/Model/Producer.php:18
 msgid "Content Producers"
 msgstr "کاربران محتوا"
@@ -257,12 +265,6 @@ msgstr "مدیر"
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:49
 msgid "Producers"
 msgstr "تولید کنندگان"
-
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:54
-#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
-msgid "Created At"
-msgstr "تاریخ ایجاد"
 
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:58
 msgid "Cost of Internship"
@@ -301,187 +303,191 @@ msgstr "سقف سهم مدیر"
 msgid "Custom Setting"
 msgstr "تنظیمات سفارشی"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:67
+#: src/Pmpr/Custom/Filefox/Setting.php:53
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Custom/Filefox/Setting.php:68
 msgid "Download & Upload Request"
 msgstr "درخواست دانلود و آپلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:70
+#: src/Pmpr/Custom/Filefox/Setting.php:71
 msgid "Pages"
 msgstr "صفحات"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:74
+#: src/Pmpr/Custom/Filefox/Setting.php:75
 #, fuzzy
 #| msgid "Request File"
 msgid "Request Parent"
 msgstr "درخواست فایل"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:79 src/Pmpr/Custom/Filefox/Setting.php:91
+#: src/Pmpr/Custom/Filefox/Setting.php:80 src/Pmpr/Custom/Filefox/Setting.php:92
 msgid "Download Page"
 msgstr "صفحه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:84
+#: src/Pmpr/Custom/Filefox/Setting.php:85
 msgid "Upload Page"
 msgstr "صفحه آپلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:93
+#: src/Pmpr/Custom/Filefox/Setting.php:94
 msgid "Download Page Configuration"
 msgstr "پیکربندی صفحه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:96
+#: src/Pmpr/Custom/Filefox/Setting.php:97
 msgid "Download Section"
 msgstr "بخش دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:100
+#: src/Pmpr/Custom/Filefox/Setting.php:101
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:105
+#: src/Pmpr/Custom/Filefox/Setting.php:106
 msgid "Download Button"
 msgstr "دکمه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:110
+#: src/Pmpr/Custom/Filefox/Setting.php:111
 msgid "Download Message"
 msgstr "پیام دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:111
+#: src/Pmpr/Custom/Filefox/Setting.php:112
 msgid "Use below button to download file."
 msgstr "برای دانلود فایل ار دکمه زیر استفاده کنید."
 
-#: src/Pmpr/Custom/Filefox/Setting.php:115
+#: src/Pmpr/Custom/Filefox/Setting.php:116
 msgid "Start Button"
 msgstr "دکمه شروع"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:120
+#: src/Pmpr/Custom/Filefox/Setting.php:121
 msgid "Start Message"
 msgstr "پیام شروع"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:121
+#: src/Pmpr/Custom/Filefox/Setting.php:122
 msgid "Use below button to start download."
 msgstr "برای شروع دانلود از دکمه زیر استفاده کنید."
 
-#: src/Pmpr/Custom/Filefox/Setting.php:126
+#: src/Pmpr/Custom/Filefox/Setting.php:127
 msgid "Illegal Access"
 msgstr "دسترسی غیرمجاز"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:130
+#: src/Pmpr/Custom/Filefox/Setting.php:131
 msgid "Behavior"
 msgstr "رفتار"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:131
+#: src/Pmpr/Custom/Filefox/Setting.php:132
 msgid "Redirect"
 msgstr "ریدایرکت"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:132
+#: src/Pmpr/Custom/Filefox/Setting.php:133
 msgid "Show a Message"
 msgstr "نمایش یک پیام"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:139
+#: src/Pmpr/Custom/Filefox/Setting.php:140
 msgid "Message"
 msgstr "پیام"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:140
-#: src/Pmpr/Custom/Filefox/Setting.php:144
+#: src/Pmpr/Custom/Filefox/Setting.php:141
+#: src/Pmpr/Custom/Filefox/Setting.php:145
 #, php-format
 msgid "If users try access to download page with illegal parameters, %s."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting.php:140
+#: src/Pmpr/Custom/Filefox/Setting.php:141
 msgid "this message display to theme"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting.php:143
+#: src/Pmpr/Custom/Filefox/Setting.php:144
 msgid "Redirect to"
 msgstr "ریدایرکت به"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:144
+#: src/Pmpr/Custom/Filefox/Setting.php:145
 msgid "redirect to selected page"
 msgstr "ریدایرکت به صفحه انتخاب شده"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:149
+#: src/Pmpr/Custom/Filefox/Setting.php:150
 msgid "User Waiting"
 msgstr "انتظار کاربر"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:152
+#: src/Pmpr/Custom/Filefox/Setting.php:153
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:153
+#: src/Pmpr/Custom/Filefox/Setting.php:154
 msgid ""
 "Check this option If you want users to wait a bit on the download page before "
 "downloading."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting.php:158
+#: src/Pmpr/Custom/Filefox/Setting.php:159
 msgid "Second"
 msgstr "ثانیه"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:163
+#: src/Pmpr/Custom/Filefox/Setting.php:164
 msgid "Waiting Message"
 msgstr "پیام انتظار"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:170
+#: src/Pmpr/Custom/Filefox/Setting.php:171
 msgid "Cloud Storage"
 msgstr "فضای ذخیره ابری"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:172
+#: src/Pmpr/Custom/Filefox/Setting.php:173
 msgid "Storage Configuration"
 msgstr "پیکربندی فضای ذخیره سازی"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:175
+#: src/Pmpr/Custom/Filefox/Setting.php:176
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:179
+#: src/Pmpr/Custom/Filefox/Setting.php:180
 msgid "Valid Mimetypes"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting.php:180
+#: src/Pmpr/Custom/Filefox/Setting.php:181
 msgid "PDF"
 msgstr "فایل پی دی اف"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:181
+#: src/Pmpr/Custom/Filefox/Setting.php:182
 msgid "ZIP"
 msgstr "فایل زیپ"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:182
+#: src/Pmpr/Custom/Filefox/Setting.php:183
 msgid "DOCX"
 msgstr "فایل ورد"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:188
+#: src/Pmpr/Custom/Filefox/Setting.php:189
 msgid "WooCommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:190
+#: src/Pmpr/Custom/Filefox/Setting.php:191
 msgid "WooCommerce Configuration"
 msgstr "پیکربندی ووکامرس"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:193
+#: src/Pmpr/Custom/Filefox/Setting.php:194
 msgid "Subdomain"
 msgstr "ساب‌دامین"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:197
+#: src/Pmpr/Custom/Filefox/Setting.php:198
 msgid "Taxonomy"
 msgstr "طبقه‌بندی"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:198
+#: src/Pmpr/Custom/Filefox/Setting.php:199
 msgid "Determine which taxonomy used as subdomain."
 msgstr "مشخص کنید کدام نوع طبقه‌بندی به عنوان ساب‌دامین مورد استفاده قرار گیرد."
 
-#: src/Pmpr/Custom/Filefox/Setting.php:203
+#: src/Pmpr/Custom/Filefox/Setting.php:204
 msgid "Download List"
 msgstr "لیست دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:207
+#: src/Pmpr/Custom/Filefox/Setting.php:208
 #, fuzzy
 #| msgid "Download Title"
 msgid "Download Title Mask"
 msgstr "عنوان دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:208
+#: src/Pmpr/Custom/Filefox/Setting.php:209
 msgid "Download Title"
 msgstr "عنوان دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting.php:212
+#: src/Pmpr/Custom/Filefox/Setting.php:213
 msgid "Child Card Footer Text"
 msgstr ""
 
@@ -606,6 +612,53 @@ msgstr "درخواست فایل"
 msgid "File Provide"
 msgstr "ارائه فایل"
 
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:21
+msgid "Page Click"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:22
+#, fuzzy
+#| msgid "Pages"
+msgid "Page Clicks"
+msgstr "صفحات"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:32
+msgid "Post"
+msgstr "نوشته‌"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:37
+msgid "Click Count"
+msgstr "تعداد کلیک"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:42
+msgid "Traffic Type"
+msgstr "نوع ترافیک"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:43
+msgid "Organic (Google Search)"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Traffic/Model/PageClick.php:44
+msgid "Discover (Google Chrome)"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Traffic/Setting.php:30
+msgid "Page's Traffic"
+msgstr "ترافیک صفحات"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Setting.php:32
+msgid "Search Console & Mode Configuration"
+msgstr "پیکربندی سرچ کنسول و مود"
+
+#: src/Pmpr/Custom/Filefox/Traffic/Setting.php:75
+#, php-format
+msgid ""
+"%s can not gather pages traffic data until you enter your credentials in the "
+"%s."
+msgstr ""
+"تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s قادر به جمع‌اوری دیتای "
+"ترافیکی صفحات نخواهد بود ."
+
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:57
 msgid "Files Upload Date"
 msgstr "تاریخ درج فایل"
@@ -671,6 +724,9 @@ msgstr "افزودن به سبد خرید"
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:185
 msgid "Download File"
 msgstr "دانلود فایل"
+
+#~ msgid "Search Console"
+#~ msgstr "سرچ کنسول"
 
 #~ msgid "Managers"
 #~ msgstr "مدیران"
