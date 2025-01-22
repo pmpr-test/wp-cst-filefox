@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             679151225ff18             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Custom\Filefox\Traffic\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\ORM\Model; abstract class Traffic extends Model { const kaqkcwwmucykacug = "\157\x72\x67\x61\x6e\x69\x63"; const cyeqqeaegosuoaom = "\144\151\x73\143\157\x76\145\162"; public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->qoemykoeuecmsmwe(Constants::kqigmeickowqiiyy)->gswweykyogmsyawy(__("\x50\157\163\x74", PR__CST__FILEFOX))->acceqyqygswoecwe(12))->cquokmemekqqywgi($eqwoegegiamegqsm->qoemykoeuecmsmwe(Constants::qiyqwyiiwykeccmo)->gswweykyogmsyawy(__("\x43\x6c\151\143\x6b\40\103\157\x75\x6e\x74", PR__CST__FILEFOX)))->cquokmemekqqywgi($eqwoegegiamegqsm->yyuiuwgokmwioomq(Constants::squoamkioomemiyi)->gswweykyogmsyawy(__("\124\x72\x61\x66\x66\151\x63\40\124\171\x70\x65", PR__CST__FILEFOX))->eyygsasuqmommkua(self::kaqkcwwmucykacug)->kesomeowemmyygey(1, self::kaqkcwwmucykacug, __("\117\162\147\141\x6e\x69\143\40\x28\x47\x6f\157\x67\x6c\x65\40\x53\145\x61\x72\x63\x68\x29", PR__CST__FILEFOX))->kesomeowemmyygey(2, self::cyeqqeaegosuoaom, __("\104\x69\163\x63\157\166\x65\x72\40\50\x47\x6f\x6f\x67\154\x65\x20\103\150\162\157\x6d\145\51", PR__CST__FILEFOX))); parent::uwmqacgewuauagai(); } }
