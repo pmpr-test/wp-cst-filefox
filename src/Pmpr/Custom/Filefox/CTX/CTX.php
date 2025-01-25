@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6794e750d6dc7             |
+    |             6795527f3173c             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Filefox\CTX; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Custom\Filefox\Container; class CTX extends Container { public function mameiwsayuyquoeq() { Medium::symcgieuakksimmu(); Material::symcgieuakksimmu(); Category::symcgieuakksimmu(); Application::symcgieuakksimmu(); } public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse("\x74\145\x72\x6d\137\154\x69\x6e\x6b", [$this, "\153\165\143\163\171\157\x6f\x61\141\x71\151\163\x65\x65\167\145"], 999, 2); } public function kucsyooaaqiseewe($iwywmkygwewiamwm, $iwewcwusemqaiggk) { $kesssewsiegssiya = $this->caokeucsksukesyo()->kckogqkiycqeumoa()->yyoeeseewqmmyaee($iwewcwusemqaiggk, Constants::ckmqoekmugkggeym); if (!$this->caokeucsksukesyo()->yyoeeseewqmmyaee()->cekoogweeooasayu($kesssewsiegssiya)) { $iwywmkygwewiamwm = ''; } return $iwywmkygwewiamwm; } }
+ namespace Pmpr\Custom\Filefox\CTX; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Custom\Filefox\Container; class CTX extends Container { public function mameiwsayuyquoeq() { Medium::symcgieuakksimmu(); Material::symcgieuakksimmu(); Category::symcgieuakksimmu(); Application::symcgieuakksimmu(); } public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse("\x74\145\162\155\137\x6c\x69\x6e\153", [$this, "\x6b\x75\x63\163\171\x6f\x6f\141\x61\161\x69\163\145\x65\167\x65"], 999, 2); } public function kucsyooaaqiseewe($iwywmkygwewiamwm, $iwewcwusemqaiggk) { $kesssewsiegssiya = $this->caokeucsksukesyo()->kckogqkiycqeumoa()->yyoeeseewqmmyaee($iwewcwusemqaiggk, Constants::ckmqoekmugkggeym); if (!$this->caokeucsksukesyo()->yyoeeseewqmmyaee()->cekoogweeooasayu($kesssewsiegssiya)) { $iwywmkygwewiamwm = ''; } return $iwywmkygwewiamwm; } }
