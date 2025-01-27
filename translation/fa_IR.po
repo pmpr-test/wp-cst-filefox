@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-01-27 01:57+0330\n"
+"POT-Creation-Date: 2025-01-27 15:56+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -694,6 +694,10 @@ msgstr "ردیف‌ها در هر درخواست"
 #: src/Pmpr/Custom/Filefox/Traffic/Setting.php:52
 msgid "How many rows fetched from server in each request."
 msgstr ""
+
+#: src/Pmpr/Custom/Filefox/User.php:47
+msgid "Registered Date"
+msgstr "تاریخ ثبت‌نام"
 
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:57
 msgid "Files Upload Date"

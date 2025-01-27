@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6796bb83d60f3             |
+    |             67977bf0753d5             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Filefox\Traffic; use Pmpr\Common\Foundation\Process\Queue; class Process extends Queue { const csqsymqoqwyowokg = "\146\146\137\x74\x72\141\x66\146\151\x63\137\152\157\142\x5f"; const iaoukeusekqewswc = self::csqsymqoqwyowokg . "\x66\145\164\x63\x68\x5f\x70\141\147\x65\x73\x5f\144\141\164\x61"; public function ikcgmcycisiccyuc() { $this->group = "\x66\146\x5f\x74\162\141\146\x66\x69\x63"; } public function muoksumwiwiaouki() { return $this->ooosmymooksgmyos(strtotime("\x6d\151\x64\x6e\x69\x67\150\164"), DAY_IN_SECONDS, self::iaoukeusekqewswc); } }
+ namespace Pmpr\Custom\Filefox\Traffic; use Pmpr\Common\Foundation\Process\Queue; class Process extends Queue { const csqsymqoqwyowokg = "\146\x66\x5f\164\162\x61\x66\146\x69\x63\137\152\157\x62\137"; const iaoukeusekqewswc = self::csqsymqoqwyowokg . "\x66\x65\164\x63\150\137\160\x61\x67\x65\163\137\x64\141\x74\x61"; public function ikcgmcycisiccyuc() { $this->group = "\146\146\x5f\x74\x72\141\146\x66\x69\x63"; } public function muoksumwiwiaouki() { return $this->ooosmymooksgmyos(strtotime("\155\x69\144\x6e\x69\147\150\x74"), DAY_IN_SECONDS, self::iaoukeusekqewswc); } }
