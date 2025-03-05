@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-02-23 18:47+0330\n"
+"POT-Creation-Date: 2025-03-04 13:46+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -25,6 +25,22 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
 
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:32
+msgid "Article"
+msgstr "مقاله تخصصی"
+
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:33
+msgid "Articles"
+msgstr "مقالات تخصصی"
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:34
+msgid "Custom Summary"
+msgstr "خلاصه سفارشی"
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:38
+msgid "Short Summery"
+msgstr "خلاصه کوتاه"
+
 #: src/Pmpr/Custom/Filefox/CPT/News.php:31
 msgid "News"
 msgstr "اخبار"
@@ -36,7 +52,7 @@ msgstr "خبر"
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:243
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:416
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:107
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:23
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:24
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:117
 msgid "Material"
 msgstr "ماهیت"
@@ -52,7 +68,7 @@ msgid "Custom Data"
 msgstr "دیتای سفارشی"
 
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:415
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:34
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:35
 #: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
 msgid "Medium"
 msgstr "رسانه"
@@ -89,15 +105,19 @@ msgstr "کاربردها"
 msgid "Application for products"
 msgstr "کاربر برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:22
+#: src/Pmpr/Custom/Filefox/CTX/Category.php:116
+msgid "Short Description"
+msgstr "توضیح کوتاه"
+
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:23
 msgid "Materials"
 msgstr "ماهیت‌ها"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:24
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:25
 msgid "Material for products"
 msgstr "ماهیت برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:41
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:42
 msgid "Icon"
 msgstr "آیکون"
 
@@ -109,7 +129,7 @@ msgstr "رسانه‌ها"
 msgid "Medium for products"
 msgstr "رسانه برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/Filefox.php:28
+#: src/Pmpr/Custom/Filefox/Filefox.php:27
 msgid "Filefox Custom"
 msgstr "سفارشی فایل فاکس"
 
@@ -197,6 +217,144 @@ msgstr "بهترین تیم"
 msgid "Your Team"
 msgstr "تیم شما"
 
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:78
+msgid "Something is wrong, can not update you profile, please contact us."
+msgstr ""
+"مشکلی وجود دارد، نمی توان پروفایل شما را به روز کرد، لطفاً با ما تماس بگیرید."
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:80
+msgid "Additional information update successfully."
+msgstr "اطلاعات تکمیلی با موفقیت به روزرسانی شد."
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:100
+msgid "Caption"
+msgstr "کپشن"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:101
+msgid "Professional Python programmer"
+msgstr "برنامه نویس حرفه‌ای پایتون"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:104
+msgid "Expertise"
+msgstr "تخصص"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:105
+msgid "Game console specialist"
+msgstr "متخصص کنسول‌های بازی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:108
+msgid "Aparat Introduce Link"
+msgstr "لینک معرفی آپارات"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:112
+msgid "Educational Information"
+msgstr "اطلاعات تحصیلی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:115
+msgid "Place of Study"
+msgstr "محل تحصیل"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:116
+msgid "Tehran University"
+msgstr "دانشگاه تهران"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:119
+msgid "Field of Study"
+msgstr "رشته تحصیلی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:120
+msgid "Computer Engineering"
+msgstr "مهندسی کامپیوتر"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:123
+msgid "Degree"
+msgstr "مقطع"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:128
+msgid "Education Place Website"
+msgstr "وبسایت دانشگاه"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:133
+msgid "Languages"
+msgstr "زبان‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:135
+msgid "Languages you speak or are familiar with"
+msgstr "زبان‌هایی که صحبت می‌کنید یا آشنا هستید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:138
+msgid "Memberships & Certificates"
+msgstr "عضویت‌ها و گواهینامه‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:139
+msgid ""
+"Organizations or institutions of which you are a member, for example, the "
+"Medical System Organization + certificates and credentials (exclusively those "
+"related to the specialized field of the fax file content) that you have "
+"received"
+msgstr ""
+"سازمان‌ها یا نهادهایی که در آن‌ها عضو هستید، برای مثال سازمان نظام پزشکی + "
+"گواهینامه‌ها و سرتیفیکیت‌هایی (منحصرا موارد مرتبط با زمینه تخصصی محتوای فایل "
+"فاکس) که دریافت کرده‌اید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:142
+msgid "Memberships"
+msgstr "عضویت‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:146
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:161
+msgid "Organization Name"
+msgstr "نام سازمان"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:150
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:165
+msgid "Organization Website"
+msgstr "وب سایت سازمان"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:154
+msgid "Certificates"
+msgstr "گواهینامه‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:157
+msgid "Certificate Name"
+msgstr "عنوان گواهی نامه"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:169
+msgid "Public Contact Points"
+msgstr "اطلاعات تماس عمومی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:170
+msgid ""
+"This contact information will be displayed to all visitors on your public "
+"profile."
+msgstr ""
+"این اطلاعات تماس در پروفایل عمومی شما به عموم بازدیدکنندگان نمایش داده می‌شود."
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:173
+msgid "Phone"
+msgstr "شماره تماس"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:176
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:180
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:184
+msgid "External Accounts"
+msgstr "پروفایل‌های مرجع"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:181
+msgid "Your profile on reference websites like Reddit and Stack Exchange"
+msgstr "پروفایل شما در وبسایت های مرجع نظیر Reddit و Stack Exchange"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:188
+msgid "Website Title"
+msgstr "عنوان وب سایت"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:192
+msgid "Your Account Link"
+msgstr "لینک پروفایل شما"
+
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Single.php:66
 #, php-format
 msgid "View %s"
@@ -215,102 +373,102 @@ msgstr ""
 msgid "Post Not Found"
 msgstr "نوشته مورد نظر پیدا نشد"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:110
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:111
 msgid "Previous period traffic"
 msgstr "ترافیک دوره قبلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:114
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:115
 msgid "Current period traffic"
 msgstr "ترافیک دوره جاری"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:118
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:119
 msgid "Team users count"
 msgstr "تعداد کاربران تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:123
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:124
 msgid "My Share"
 msgstr "سهم من"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:125
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:126
 msgid "From the net sales revenue of each team file"
 msgstr "از درآمد خالص فروش هر فایل تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:150
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:151
 msgid "Team Entry Code"
 msgstr "کد ورود به تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:163
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:164
 msgid "This team has no manager."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:221
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:223
 #, php-format
 msgid "%s Post"
 msgid_plural "%s Posts"
 msgstr[0] "%s نوشته"
 msgstr[1] "%s نوشته"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:344
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:348
 msgid "Sorry you have no request yet."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:354
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:358
 #, php-format
 msgid "You are currently a member of %s team."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:364
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:368
 #, php-format
 msgid "You already registered as %s on this team."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:365
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:152
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:270
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:373
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:377
 msgid "There is no team with entered code."
 msgstr "تیمی با کد وارد شده وجود ندارد."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:400
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:404
 msgid "Team Manager"
 msgstr "مدیر تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:415
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:419
 msgid "Members Count"
 msgstr "تعداد اعضا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:416
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:420
 #, php-format
 msgid "%s people"
 msgstr "%s نفر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:419
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:423
 msgid "Start of Activity"
 msgstr "شروع فعالیت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:423
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:427
 msgid "Membership code"
 msgstr "کد عضویت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:451
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:455
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:62
 msgid "Activity Fields"
 msgstr "زمینه‌های فعالیت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:455
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:459
 msgid "Team Identify"
 msgstr "شناسه تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:481
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:485
 #, php-format
 msgid "You have successfully become a member of %s's team."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:502
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:507
 msgid ""
 "You are not currently a member of any team, please enter your team invitation "
 "code in the field below."
@@ -318,48 +476,109 @@ msgstr ""
 "در حال حاضر شما عضو هیچ تیمی نیستید، لطفا کد دعوت تیم خود را در فیلد زیر وارد "
 "کنید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:51
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:66
+msgid "Diploma"
+msgstr "دیپلم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:67
+msgid "Associate"
+msgstr "فوق دیپلم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:68
+msgid "Bachelor"
+msgstr "لیسانس"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:69
+msgid "Master"
+msgstr "کارشناسی ارشد"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:70
+msgid "Doctoral"
+msgstr "دکتری"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:80
+msgid "English"
+msgstr "انگلیسی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:81
+msgid "Persian"
+msgstr "فارسی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:82
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:83
+msgid "French"
+msgstr "فرانسوی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:84
+msgid "Turkish"
+msgstr "ترکی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:85
+msgid "Arabic"
+msgstr "عربی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:86
+msgid "Chinese"
+msgstr "چینی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:107
+#, php-format
+msgid "%s of %s from %s"
+msgstr "%s %s از %s"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:126
+msgid "Additional Information"
+msgstr "اطلاعات تکمیلی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:128
+msgid "Update your additional information"
+msgstr "اطلاعات تکمیلی خود را به روز کنید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:144
 msgid "Notice"
 msgstr "توجه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:53
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:146
 #, php-format
 msgid ""
 "The value of this field cannot be edited after it is saved and confirmed by "
 "%s."
 msgstr "مقدار این فیلد پس از ذخیره و تایید از سوی %s، غیر قابل ویرایش است."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:74
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:168
 msgid "Content Production"
 msgstr "تولید محتوا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:78
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:172
 msgid "Performance"
 msgstr "عملکرد"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:80
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:174
 msgid "View your performance"
 msgstr "عملکرد خود را مشاهده کنید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:84
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:178
 msgid "My Performance"
 msgstr "عملکرد من"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:86
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:180
 msgid "My performance in attracting organic Google traffic"
 msgstr "عملکرد من در جذب ترافیک ارگانیک گوگل"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:91
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:185
 msgid "Team Performance"
 msgstr "عملکرد تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:93
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:187
 msgid "The performance of team producers in attracting organic Google traffic"
 msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک ارگانیک گوگل"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:106
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:149
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:154
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:200
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:245
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:27
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:102
@@ -368,99 +587,99 @@ msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک
 msgid "Team"
 msgstr "تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:108
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:202
 msgid "Team Details"
 msgstr "جزئیات تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:114
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:208
 msgid "Member"
 msgstr "عضو"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:116
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:210
 msgid "Member Details"
 msgstr "جزئیات کاربر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:122
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:148
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:153
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:216
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:244
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:249
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:33
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:32
 msgid "Post"
 msgstr "نوشته‌"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:124
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:218
 msgid "Post Details"
-msgstr ""
+msgstr "جزئیات نوشته"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:134
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:229
 #, php-format
 msgid "%s Traffic"
 msgstr "ترافیک %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:135
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:230
 #, php-format
 msgid "%s Aggregated Traffic"
 msgstr "ترافیک تجمعی %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:139
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:235
 msgid "Overview"
 msgstr "بررسی کلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:140
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:236
 msgid "Users Performance"
 msgstr "عملکرد کاربران"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:141
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:237
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Setting.php:26
 msgid "Page's Traffic"
 msgstr "ترافیک صفحات"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:144
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:240
 msgid "Monthly"
 msgstr "ماهانه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:145
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:241
 msgid "Weekly"
 msgstr "هفتگی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:146
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:242
 msgid "Daily"
 msgstr "روزانه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:150
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:155
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:246
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:147
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:274
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:159
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:255
 msgid "Join Team"
 msgstr "پیوستن به تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:160
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:256
 msgid "Check Code"
 msgstr "بررسی کد"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:163
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:259
 msgid "Name of User"
 msgstr "نام کاربر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:164
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:260
 msgid "Join Date"
 msgstr "تاریخ عضویت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:165
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:261
 msgid "Posts Count"
 msgstr "تعداد نوشته‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:166
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:262
 msgid "All Traffic"
 msgstr "کل ترافیک صفحات"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:168
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:172
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:264
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:268
 #, php-format
 msgid "Performance of %s"
 msgstr "عملکرد %s"
@@ -1015,6 +1234,10 @@ msgstr "تاریخ پیوند"
 msgid "Download at low speed"
 msgstr "دانلود با سرعت پایین"
 
+#: src/Pmpr/Custom/Filefox/StructuredData.php:101
+msgid "Professional Certification"
+msgstr ""
+
 #: src/Pmpr/Custom/Filefox/Ticket/Ajax.php:63
 msgid "Something wrong, please try again or contact us."
 msgstr "مشکلی وجود دارد، لطفاً دوباره امتحان کنید یا با ما تماس بگیرید."
@@ -1096,6 +1319,39 @@ msgstr "افزودن به سبد خرید"
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:185
 msgid "Download File"
 msgstr "دانلود فایل"
+
+#~ msgid "Blog Post"
+#~ msgstr "نوشته تخصصی"
+
+#~ msgid "Blog Posts"
+#~ msgstr "نوشته‌های تخصصی"
+
+#~ msgid "Specify the languages you are fluent in"
+#~ msgstr "زبان هایی که به آنها مسلط هستید را مشخص کنید"
+
+#~ msgid "Member of"
+#~ msgstr "عضو در"
+
+#~ msgid "Educational Degree"
+#~ msgstr "مدرک تحصیلی"
+
+#~ msgid "University Name"
+#~ msgstr "نام دانشگاه"
+
+#~ msgid "University Field"
+#~ msgstr "رشته دانشگاهی"
+
+#~ msgid "University Degree"
+#~ msgstr "مدرک دانشگاهی"
+
+#~ msgid "University Link"
+#~ msgstr "لینک دانشگاه"
+
+#~ msgid "Post References"
+#~ msgstr "منابع نوشته"
+
+#~ msgid "References"
+#~ msgstr "منابع"
 
 #~ msgid "Content Management"
 #~ msgstr "مدیریت محتوا"
