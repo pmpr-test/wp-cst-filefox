@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-03-04 13:46+0330\n"
+"POT-Creation-Date: 2025-03-07 19:20+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -25,19 +25,33 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:32
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:35
 msgid "Article"
-msgstr "مقاله تخصصی"
+msgstr "مقاله"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:33
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:36
 msgid "Articles"
-msgstr "مقالات تخصصی"
+msgstr "مقالات"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:34
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:61
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:359
+msgid "Custom Data"
+msgstr "دیتای سفارشی"
+
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:92
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:206
+#: src/Pmpr/Custom/Filefox/CTX/Category.php:112
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:24
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:117
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:49
+msgid "Material"
+msgstr "ماهیت"
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:35
 msgid "Custom Summary"
 msgstr "خلاصه سفارشی"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:38
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:39
 msgid "Short Summery"
 msgstr "خلاصه کوتاه"
 
@@ -49,51 +63,25 @@ msgstr "اخبار"
 msgid "The News"
 msgstr "خبر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:243
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:416
-#: src/Pmpr/Custom/Filefox/CTX/Category.php:107
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:24
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:117
-msgid "Material"
-msgstr "ماهیت"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:244
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:414
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:207
 #: src/Pmpr/Custom/Filefox/CTX/Application.php:22
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:47
 msgid "Application"
 msgstr "کاربرد"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:404
-msgid "Custom Data"
-msgstr "دیتای سفارشی"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:415
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:35
-#: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
-msgid "Medium"
-msgstr "رسانه"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:417
-msgid "Category"
-msgstr "دسته‌بندی"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:474
-msgid "Taxonomies"
-msgstr "طبقه‌بندی‌ها"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:483
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:370
 msgid "Change Logs"
 msgstr "گزارشات تغییرات"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:487
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:374
 msgid "Change Log"
 msgstr "گزارش تغییرات"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:507
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:394
 msgid "Parent"
 msgstr "مادر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:512
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:399
 msgid "Order"
 msgstr "ترتیب"
 
@@ -105,7 +93,7 @@ msgstr "کاربردها"
 msgid "Application for products"
 msgstr "کاربر برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/CTX/Category.php:116
+#: src/Pmpr/Custom/Filefox/CTX/Category.php:117
 msgid "Short Description"
 msgstr "توضیح کوتاه"
 
@@ -117,7 +105,19 @@ msgstr "ماهیت‌ها"
 msgid "Material for products"
 msgstr "ماهیت برای محصولات"
 
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:35
+#: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:48
+msgid "Medium"
+msgstr "رسانه"
+
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:42
+#, fuzzy
+#| msgid "Search Console"
+msgid "Search Placeholder"
+msgstr "سرچ کنسول"
+
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:46
 msgid "Icon"
 msgstr "آیکون"
 
@@ -424,8 +424,8 @@ msgstr ""
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:152
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:270
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:153
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:271
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -581,8 +581,8 @@ msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:27
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:102
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:112
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:103
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:113
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:31
 msgid "Team"
 msgstr "تیم"
@@ -649,8 +649,8 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:246
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:147
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:274
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:148
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:275
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
@@ -741,44 +741,44 @@ msgstr "تاریخ ایجاد"
 msgid "Categories"
 msgstr "دسته‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:107
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:108
 msgid "Post Owner"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:198
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:199
 msgid "Cost of Internship"
 msgstr "هزینه کارآموزی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:205
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:206
 msgid "Team Share"
 msgstr "سهم تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:206
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:207
 #, php-format
 msgid "%s of total team sales"
 msgstr "%s از کل فروش تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:210
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:211
 msgid "User Share"
 msgstr "سهم کاربر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:211
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:212
 msgid "User-to-Team Traffic Ratio"
 msgstr "نسبت ترافیک کاربر به تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:217
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:218
 msgid "Manager Share"
 msgstr "سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:218
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:219
 msgid "Percentage increase in team traffic divided by team size"
 msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:222
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:223
 msgid "Manager's share cap"
 msgstr "سقف سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:250
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:251
 #, php-format
 msgid "Team of %s"
 msgstr "تیم %s"
@@ -1250,6 +1250,14 @@ msgstr "درخواست فایل"
 msgid "File Provide"
 msgstr "ارائه فایل"
 
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:50
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:129
+msgid "Taxonomies"
+msgstr "طبقه‌بندی‌ها"
+
 #: src/Pmpr/Custom/Filefox/User.php:49
 msgid "Registered Date"
 msgstr "تاریخ ثبت‌نام"
@@ -1406,9 +1414,6 @@ msgstr "دانلود فایل"
 #~ msgstr ""
 #~ "تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s قادر به جمع‌اوری "
 #~ "دیتای ترافیکی صفحات نخواهد بود ."
-
-#~ msgid "Search Console"
-#~ msgstr "سرچ کنسول"
 
 #~ msgid "Have"
 #~ msgstr "دارد"
