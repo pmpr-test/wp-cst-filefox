@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67cecadf46170             |
+    |             67d9d3edb5aaf             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Filefox\Setting; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Segment; class SettingSegment extends Segment { public function ikcgmcycisiccyuc() { $this->setting = Setting::symcgieuakksimmu(); } }
