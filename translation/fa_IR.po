@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-03-30 14:32+0330\n"
+"POT-Creation-Date: 2025-03-30 15:30+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -79,7 +79,7 @@ msgstr "نسخه"
 
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:355
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:45
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:176
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:177
 msgid "Changes"
 msgstr "تغییرات"
 
@@ -1373,7 +1373,7 @@ msgstr "مشاهده و دانلود"
 msgid "Version %s - %s"
 msgstr "نسخه %s - %s"
 
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:181
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:183
 #, php-format
 msgid "Changes of %s"
 msgstr "تغییرات نسخه %s"
