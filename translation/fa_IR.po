@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-04-17 10:52+0330\n"
+"POT-Creation-Date: 2025-04-20 13:07+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -33,19 +33,23 @@ msgstr "مقالات تخصصی"
 msgid "Specialized Article"
 msgstr "مقاله تخصصی"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:82
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:334
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:108
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:317
 msgid "Custom Data"
 msgstr "دیتای سفارشی"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:113
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:202
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:140
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:186
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:111
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:27
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:26
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:117
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:50
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:48
 msgid "Material"
 msgstr "ماهیت"
+
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:141
+msgid "Author"
+msgstr "نویسنده"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:35
 msgid "Custom Summary"
@@ -63,87 +67,86 @@ msgstr "اخبار"
 msgid "The News"
 msgstr "خبر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:203
-#: src/Pmpr/Custom/Filefox/CTX/Application.php:22
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:48
-msgid "Application"
-msgstr "کاربرد"
-
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:345
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:328
 msgid "Change Logs"
 msgstr "گزارشات تغییرات"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:349
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:332
 msgid "Version"
 msgstr "نسخه"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:355
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:338
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:45
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:177
 msgid "Changes"
 msgstr "تغییرات"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:375
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:358
 msgid "Parent"
 msgstr "مادر"
 
-#: src/Pmpr/Custom/Filefox/CPT/Product.php:380
+#: src/Pmpr/Custom/Filefox/CPT/Product.php:363
 msgid "Order"
 msgstr "ترتیب"
 
-#: src/Pmpr/Custom/Filefox/CTX/Application.php:21
-msgid "Applications"
-msgstr "کاربردها"
-
-#: src/Pmpr/Custom/Filefox/CTX/Application.php:23
-msgid "Application for products"
-msgstr "کاربر برای محصولات"
-
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:116
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:41
+msgid "Posts Fallback Image"
+msgstr "تصویر جایگزین نوشته‌ها"
+
+#: src/Pmpr/Custom/Filefox/CTX/Category.php:117
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:42
+msgid "Displayed when a related post has no image."
+msgstr "در صورت عدم وجود تصویر نوشته، این تصویر نمایش داده می‌شود."
+
+#: src/Pmpr/Custom/Filefox/CTX/Category.php:121
 msgid "Short Description"
 msgstr "توضیح کوتاه"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:26
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:25
 msgid "Materials"
 msgstr "ماهیت‌ها"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:28
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:27
 msgid "Material for products"
 msgstr "ماهیت برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:38
-#: src/Pmpr/Custom/Filefox/CTX/Medium.php:22
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:49
-msgid "Medium"
-msgstr "رسانه"
-
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:45
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:37
 #, fuzzy
 #| msgid "Search Console"
 msgid "Search Placeholder"
 msgstr "سرچ کنسول"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:49
-msgid "Posts Fallback Image"
-msgstr "تصویر جایگزین نوشته‌ها"
-
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:50
-msgid "Displayed when a related post has no image."
-msgstr "در صورت عدم وجود تصویر نوشته، این تصویر نمایش داده می‌شود."
-
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:54
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:46
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Custom/Filefox/CTX/Medium.php:21
-msgid "Mediums"
-msgstr "رسانه‌ها"
+#: src/Pmpr/Custom/Filefox/Comment.php:35
+msgid "Status Change History"
+msgstr "تاریخچه تغییر وضعیت"
 
-#: src/Pmpr/Custom/Filefox/CTX/Medium.php:23
-msgid "Medium for products"
-msgstr "رسانه برای محصولات"
+#: src/Pmpr/Custom/Filefox/Comment.php:56
+msgid "Approved"
+msgstr "تایید شده"
 
-#: src/Pmpr/Custom/Filefox/Filefox.php:30
+#: src/Pmpr/Custom/Filefox/Comment.php:57
+msgid "On Hold"
+msgstr "در انتظار بررسی"
+
+#: src/Pmpr/Custom/Filefox/Comment.php:58
+msgid "Spam"
+msgstr "هرزنامه"
+
+#: src/Pmpr/Custom/Filefox/Comment.php:59
+msgid "Trash"
+msgstr "سطل زباله"
+
+#: src/Pmpr/Custom/Filefox/Comment.php:74
+#, php-format
+msgid "%s in %s changed status to %s"
+msgstr "%s در %s وضعیت را به %s تغییر داد"
+
+#: src/Pmpr/Custom/Filefox/Filefox.php:31
 msgid "Filefox Custom"
 msgstr "سفارشی فایل فاکس"
 
@@ -439,7 +442,7 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:235
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:355
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:383
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -664,7 +667,7 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:230
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:368
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:403
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
@@ -1270,12 +1273,12 @@ msgstr "درخواست فایل"
 msgid "File Provide"
 msgstr "ارائه فایل"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:51
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:52
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:49
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:50
 msgid "Category"
 msgstr "دسته‌بندی"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:131
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:127
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
@@ -1389,6 +1392,24 @@ msgstr "نسخه %s - %s"
 #, php-format
 msgid "Changes of %s"
 msgstr "تغییرات نسخه %s"
+
+#~ msgid "Application"
+#~ msgstr "کاربرد"
+
+#~ msgid "Applications"
+#~ msgstr "کاربردها"
+
+#~ msgid "Application for products"
+#~ msgstr "کاربر برای محصولات"
+
+#~ msgid "Medium"
+#~ msgstr "رسانه"
+
+#~ msgid "Mediums"
+#~ msgstr "رسانه‌ها"
+
+#~ msgid "Medium for products"
+#~ msgstr "رسانه برای محصولات"
 
 #~ msgid "Articles"
 #~ msgstr "مقالات"
