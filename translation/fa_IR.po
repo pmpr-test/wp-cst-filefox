@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-04-20 13:07+0330\n"
+"POT-Creation-Date: 2025-04-21 17:23+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -51,11 +51,15 @@ msgstr "ماهیت"
 msgid "Author"
 msgstr "نویسنده"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:35
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:63
+msgid "Slug"
+msgstr "نامک"
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:85
 msgid "Custom Summary"
 msgstr "خلاصه سفارشی"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:39
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:89
 msgid "Short Summery"
 msgstr "خلاصه کوتاه"
 
@@ -441,8 +445,8 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:235
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:383
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:83
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:127
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -598,8 +602,8 @@ msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:27
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:182
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:192
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:74
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:84
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:31
 msgid "Team"
 msgstr "تیم"
@@ -666,8 +670,8 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:246
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:230
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:403
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:104
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:122
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
@@ -764,44 +768,44 @@ msgstr "دسته‌بندی‌ها"
 msgid "Product Categories"
 msgstr "دسته‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:187
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:79
 msgid "Post Owner"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:281
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:173
 msgid "Cost of Internship"
 msgstr "هزینه کارآموزی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:288
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:180
 msgid "Team Share"
 msgstr "سهم تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:289
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:181
 #, php-format
 msgid "%s of total team sales"
 msgstr "%s از کل فروش تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:293
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:185
 msgid "User Share"
 msgstr "سهم کاربر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:294
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:186
 msgid "User-to-Team Traffic Ratio"
 msgstr "نسبت ترافیک کاربر به تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:300
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:192
 msgid "Manager Share"
 msgstr "سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:301
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:193
 msgid "Percentage increase in team traffic divided by team size"
 msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:305
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:197
 msgid "Manager's share cap"
 msgstr "سقف سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:336
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:256
 #, php-format
 msgid "Team of %s"
 msgstr "تیم %s"
