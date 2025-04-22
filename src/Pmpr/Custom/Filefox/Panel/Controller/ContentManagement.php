@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68082414a9f3a             |
+    |             6808252e9b8c4             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Filefox\Panel\Controller; class ContentManagement extends Controller { public function __construct() { $this->rest_base = 'content-management'; parent::__construct(); } }
