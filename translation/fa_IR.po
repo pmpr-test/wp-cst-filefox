@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-04-21 23:56+0330\n"
+"POT-Creation-Date: 2025-04-26 14:27+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -46,7 +46,17 @@ msgstr "ماهیت"
 msgid "Author"
 msgstr "نویسنده"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:56
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:59
+#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:116
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:60
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:87
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:200
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:245
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
@@ -58,19 +68,19 @@ msgstr "نویسنده"
 msgid "Team"
 msgstr "تیم"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:58
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:89
 msgid "Slug"
 msgstr "نامک"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:86
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:117
 msgid "No team assigned"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:112
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:143
 msgid "Custom Summary"
 msgstr "خلاصه سفارشی"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:116
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:147
 msgid "Short Summery"
 msgstr "خلاصه کوتاه"
 
@@ -456,7 +466,7 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:141
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:297
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:127
 msgid "Content Manager"
 msgstr "مدیر محتوا"
@@ -670,7 +680,7 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:246
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:162
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:277
 #: src/Pmpr/Custom/Filefox/Salary/Salary.php:122
 msgid "Content Producer"
 msgstr "کاربر محتوا"
@@ -1282,11 +1292,11 @@ msgstr "ارائه فایل"
 msgid "Category"
 msgstr "دسته‌بندی"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:114
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:99
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:116
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:101
 msgid ""
 "First, select the material to load the categories related to the material."
 msgstr "ابتدا ماهیت را انتخاب کنید تا دسته‌بندی‌های مربوط به ماهیت بارگذاری شوند."
@@ -1363,10 +1373,6 @@ msgstr "تاریخ درج فایل"
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:111
 msgid "File Count"
 msgstr "تعداد فایل"
-
-#: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:116
-msgid "Preview"
-msgstr "پیش‌نمایش"
 
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:117
 msgid "Has"
