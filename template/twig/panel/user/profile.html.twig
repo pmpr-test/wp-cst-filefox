@@ -1,0 +1,11 @@
+<h2 id="additonal_information">{{ title|raw }}</h2>
+<table class="form-table">
+    {% for field in fields %}
+        <tr>
+            <th>
+                <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
+            </th>
+            <td>{{ field.html|raw }}</td>
+        </tr>
+    {% endfor %}
+</table>
