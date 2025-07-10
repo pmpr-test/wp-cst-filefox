@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-05-28 19:29+0330\n"
+"POT-Creation-Date: 2025-07-11 02:08+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -33,7 +33,7 @@ msgstr "مقالات تخصصی"
 msgid "Specialized Article"
 msgstr "مقاله تخصصی"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:135
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:137
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:186
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:111
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:26
@@ -42,51 +42,54 @@ msgstr "مقاله تخصصی"
 msgid "Material"
 msgstr "ماهیت"
 
-#: src/Pmpr/Custom/Filefox/CPT/Article.php:136
+#: src/Pmpr/Custom/Filefox/CPT/Article.php:138
 msgid "Author"
 msgstr "نویسنده"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:87
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:380
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:537
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:106
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:404
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:561
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:116
 msgid "Preview"
 msgstr "پیش‌نمایش"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:88
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:107
 #, php-format
 msgid "Preview &#8220;%s&#8221;"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:139
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:200
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:245
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:158
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:223
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:281
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:292
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:27
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:71
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:81
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:32
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:70
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:80
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:31
 msgid "Team"
 msgstr "تیم"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:141
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:160
 msgid "Slug"
 msgstr "نامک"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:142
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:161
 msgid "Word Count"
 msgstr "تعداد کلمه"
 
-#: src/Pmpr/Custom/Filefox/CPT/CPT.php:203
+#: src/Pmpr/Custom/Filefox/CPT/CPT.php:222
 msgid "No team assigned"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/CPT/News.php:30
+#: src/Pmpr/Custom/Filefox/CPT/News.php:29
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:261
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:30
 msgid "News"
 msgstr "اخبار"
 
-#: src/Pmpr/Custom/Filefox/CPT/News.php:31
+#: src/Pmpr/Custom/Filefox/CPT/News.php:30
 msgid "The News"
 msgstr "خبر"
 
@@ -241,159 +244,60 @@ msgstr "شما هنوز برای هیچ الگوی درآمدی درخواست �
 msgid "Access denied."
 msgstr "امکان دسترسی وجود ندارد."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:87
-msgid "Worst Team"
-msgstr "بدترین تیم"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:92
-msgid "All Teams Average"
-msgstr "میانگین همه تیم‌ها"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:97
-msgid "Best Team"
-msgstr "بهترین تیم"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:102
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:125
 msgid "Your Team"
 msgstr "تیم شما"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:78
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:130
+msgid "Best Team"
+msgstr "بهترین تیم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:135
+msgid "All Teams Average"
+msgstr "میانگین همه تیم‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:140
+msgid "Worst Team"
+msgstr "بدترین تیم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:217
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:272
+msgid "My Team"
+msgstr "تیم من"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:222
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:281
+msgid "Highest"
+msgstr "بیشترین"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:227
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:286
+msgid "Average"
+msgstr "میانگین"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:232
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:291
+msgid "Lowest"
+msgstr "کمترین"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:276
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:322
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:268
+msgid "Me"
+msgstr "من"
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:342
+msgid "You dont have a team yet."
+msgstr "شما هنوز تیمی ندارید."
+
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:63
 msgid "Something is wrong, can not update you profile, please contact us."
 msgstr ""
 "مشکلی وجود دارد، نمی توان پروفایل شما را به روز کرد، لطفاً با ما تماس بگیرید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:80
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:65
 msgid "Additional information update successfully."
 msgstr "اطلاعات تکمیلی با موفقیت به روزرسانی شد."
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:100
-msgid "Caption"
-msgstr "کپشن"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:101
-msgid "Professional Python programmer"
-msgstr "برنامه نویس حرفه‌ای پایتون"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:104
-msgid "Expertise"
-msgstr "تخصص"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:105
-msgid "Game console specialist"
-msgstr "متخصص کنسول‌های بازی"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:108
-msgid "Aparat Introduce Link"
-msgstr "لینک معرفی آپارات"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:112
-msgid "Educational Information"
-msgstr "اطلاعات تحصیلی"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:115
-msgid "Place of Study"
-msgstr "محل تحصیل"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:116
-msgid "Tehran University"
-msgstr "دانشگاه تهران"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:119
-msgid "Field of Study"
-msgstr "رشته تحصیلی"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:120
-msgid "Computer Engineering"
-msgstr "مهندسی کامپیوتر"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:123
-msgid "Degree"
-msgstr "مقطع"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:128
-msgid "Education Place Website"
-msgstr "وبسایت دانشگاه"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:133
-msgid "Languages"
-msgstr "زبان‌ها"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:135
-msgid "Languages you speak or are familiar with"
-msgstr "زبان‌هایی که صحبت می‌کنید یا آشنا هستید"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:138
-msgid "Memberships & Certificates"
-msgstr "عضویت‌ها و گواهینامه‌ها"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:139
-msgid ""
-"Organizations or institutions of which you are a member, for example, the "
-"Medical System Organization + certificates and credentials (exclusively those "
-"related to the specialized field of the fax file content) that you have "
-"received"
-msgstr ""
-"سازمان‌ها یا نهادهایی که در آن‌ها عضو هستید، برای مثال سازمان نظام پزشکی + "
-"گواهینامه‌ها و سرتیفیکیت‌هایی (منحصرا موارد مرتبط با زمینه تخصصی محتوای فایل "
-"فاکس) که دریافت کرده‌اید"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:142
-msgid "Memberships"
-msgstr "عضویت‌ها"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:146
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:161
-msgid "Organization Name"
-msgstr "نام سازمان"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:150
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:165
-msgid "Organization Website"
-msgstr "وب سایت سازمان"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:154
-msgid "Certificates"
-msgstr "گواهینامه‌ها"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:157
-msgid "Certificate Name"
-msgstr "عنوان گواهی نامه"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:169
-msgid "Public Contact Points"
-msgstr "اطلاعات تماس عمومی"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:170
-msgid ""
-"This contact information will be displayed to all visitors on your public "
-"profile."
-msgstr ""
-"این اطلاعات تماس در پروفایل عمومی شما به عموم بازدیدکنندگان نمایش داده می‌شود."
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:173
-msgid "Phone"
-msgstr "شماره تماس"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:176
-msgid "Email"
-msgstr "ایمیل"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:180
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:184
-msgid "External Accounts"
-msgstr "پروفایل‌های مرجع"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:181
-msgid "Your profile on reference websites like Reddit and Stack Exchange"
-msgstr "پروفایل شما در وبسایت های مرجع نظیر Reddit و Stack Exchange"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:188
-msgid "Website Title"
-msgstr "عنوان وب سایت"
-
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Profile.php:192
-msgid "Your Account Link"
-msgstr "لینک پروفایل شما"
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Single.php:66
 #, php-format
@@ -465,7 +369,7 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Restriction.php:317
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:124
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:123
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -516,202 +420,410 @@ msgstr ""
 "در حال حاضر شما عضو هیچ تیمی نیستید، لطفا کد دعوت تیم خود را در فیلد زیر وارد "
 "کنید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:66
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:71
 msgid "Diploma"
 msgstr "دیپلم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:67
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:72
 msgid "Associate"
 msgstr "فوق دیپلم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:68
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:73
 msgid "Bachelor"
 msgstr "لیسانس"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:69
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:74
 msgid "Master"
 msgstr "کارشناسی ارشد"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:70
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:75
 msgid "Doctoral"
 msgstr "دکتری"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:80
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:85
 msgid "English"
 msgstr "انگلیسی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:81
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:86
 msgid "Persian"
 msgstr "فارسی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:82
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:87
 msgid "Spanish"
 msgstr "اسپانیایی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:83
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:88
 msgid "French"
 msgstr "فرانسوی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:84
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:89
 msgid "Turkish"
 msgstr "ترکی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:85
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:90
 msgid "Arabic"
 msgstr "عربی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:86
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:91
 msgid "Chinese"
 msgstr "چینی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:107
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:112
 #, php-format
 msgid "%s of %s from %s"
 msgstr "%s %s از %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:126
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:131
+#: src/Pmpr/Custom/Filefox/Panel/User.php:93
 msgid "Additional Information"
 msgstr "اطلاعات تکمیلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:128
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:133
 msgid "Update your additional information"
 msgstr "اطلاعات تکمیلی خود را به روز کنید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:144
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:149
 msgid "Notice"
 msgstr "توجه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:146
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:151
 #, php-format
 msgid ""
 "The value of this field cannot be edited after it is saved and confirmed by "
 "%s."
 msgstr "مقدار این فیلد پس از ذخیره و تایید از سوی %s، غیر قابل ویرایش است."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:168
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:172
 msgid "Content Production"
 msgstr "تولید محتوا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:172
-msgid "Performance"
-msgstr "عملکرد"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:180
+msgid "Content Performance"
+msgstr "عملکرد محتوایی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:174
-msgid "View your performance"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:182
+#, fuzzy
+#| msgid "View your performance"
+msgid "View your content performance"
 msgstr "عملکرد خود را مشاهده کنید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:178
-msgid "My Performance"
-msgstr "عملکرد من"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:186
+msgid "My Content Performance"
+msgstr "عملکرد محتوایی من"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:180
-msgid "My performance in attracting organic Google traffic"
-msgstr "عملکرد من در جذب ترافیک ارگانیک گوگل"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:188
+msgid ""
+"See how many posts you’ve produced and track your daily, weekly and monthly "
+"producing trends."
+msgstr ""
+"تعداد پست‌های نوشته شده و روند پیشرفت روزانه، هفتگی و ماهانه خود را مشاهده "
+"کنید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:185
-msgid "Team Performance"
-msgstr "عملکرد تیم"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:193
+msgid "Team Content Performance"
+msgstr "عملکرد محتوایی تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:187
-msgid "The performance of team producers in attracting organic Google traffic"
-msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک ارگانیک گوگل"
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:195
+msgid ""
+"See how much content your team is publishing and track publishing trends over "
+"time."
+msgstr ""
+"میزان محتوای منتشرشده توسط تیم خود را ببینید و روند انتشار را در گذر زمان "
+"دنبال کنید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:202
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:201
+msgid "Traffic Performance"
+msgstr "عملکرد ترافیکی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:203
+msgid "View your traffic performance"
+msgstr "عملکرد ترافیکی خود را مشاهده کنید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:207
+msgid "My Traffic Performance"
+msgstr "عملکرد ترافیکی من"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:209
+msgid "My performance in attracting organic Google traffic."
+msgstr "عملکرد من در جذب ترافیک ارگانیک گوگل."
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:214
+msgid "Team Traffic Performance"
+msgstr "عملکرد ترافیکی تیم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:216
+msgid "The performance of team producers in attracting organic Google traffic."
+msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک ارگانیک گوگل."
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:225
 msgid "Team Details"
 msgstr "جزئیات تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:208
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:231
 msgid "Member"
 msgstr "عضو"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:210
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:233
 msgid "Member Details"
 msgstr "جزئیات کاربر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:216
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:244
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:249
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:239
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:282
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:293
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:33
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:32
 msgid "Post"
 msgstr "نوشته‌"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:218
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:241
 msgid "Post Details"
 msgstr "جزئیات نوشته"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:229
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:249
 #, php-format
 msgid "%s Traffic"
 msgstr "ترافیک %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:230
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:250
 #, php-format
 msgid "%s Aggregated Traffic"
 msgstr "ترافیک تجمعی %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:235
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:257
+msgid "All"
+msgstr "همه"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:258
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:28
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:259
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:29
+msgid "Articles"
+msgstr "مقالات"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:260
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:31
+msgid "Products"
+msgstr "محصولات"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:264
 msgid "Overview"
 msgstr "بررسی کلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:236
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:265
 msgid "Users Performance"
 msgstr "عملکرد کاربران"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:237
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:266
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Setting.php:26
 msgid "Page's Traffic"
 msgstr "ترافیک صفحات"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:240
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:269
+#, php-format
+msgid "Me in %s"
+msgstr "من در %s"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:270
+msgid "Me in Team"
+msgstr "من در تیم"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:273
+#, php-format
+msgid "My Team in %s"
+msgstr "تیم من در %s"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:276
 msgid "Monthly"
 msgstr "ماهانه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:241
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:277
 msgid "Weekly"
 msgstr "هفتگی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:242
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:278
 msgid "Daily"
 msgstr "روزانه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:246
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:251
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:283
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:294
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
 #: src/Pmpr/Custom/Filefox/Salary/Restriction.php:294
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:119
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:118
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:255
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:286
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:297
+msgid "Published Content Count"
+msgstr "تعداد محتوا منتشر شده"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:287
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:298
+msgid "Produced Content Count"
+msgstr "تعداد محتوا نوشته شده"
+
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:303
 msgid "Join Team"
 msgstr "پیوستن به تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:256
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:304
 msgid "Check Code"
 msgstr "بررسی کد"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:259
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:307
 msgid "Name of User"
 msgstr "نام کاربر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:260
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:308
 msgid "Join Date"
 msgstr "تاریخ عضویت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:261
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:309
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:35
 msgid "Posts Count"
 msgstr "تعداد نوشته‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:262
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:310
 msgid "All Traffic"
 msgstr "کل ترافیک صفحات"
 
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:264
-#: src/Pmpr/Custom/Filefox/Panel/Panel.php:268
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:312
+#: src/Pmpr/Custom/Filefox/Panel/Panel.php:316
 #, php-format
 msgid "Performance of %s"
 msgstr "عملکرد %s"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:45
+msgid "Caption"
+msgstr "کپشن"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:46
+msgid "Professional Python programmer"
+msgstr "برنامه نویس حرفه‌ای پایتون"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:49
+msgid "Expertise"
+msgstr "تخصص"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:50
+msgid "Game console specialist"
+msgstr "متخصص کنسول‌های بازی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:53
+msgid "Aparat Introduce Link"
+msgstr "لینک معرفی آپارات"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:57
+msgid "Educational Information"
+msgstr "اطلاعات تحصیلی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:60
+msgid "Place of Study"
+msgstr "محل تحصیل"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:61
+msgid "Tehran University"
+msgstr "دانشگاه تهران"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:64
+msgid "Field of Study"
+msgstr "رشته تحصیلی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:65
+msgid "Computer Engineering"
+msgstr "مهندسی کامپیوتر"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:68
+msgid "Degree"
+msgstr "مقطع"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:73
+msgid "Education Place Website"
+msgstr "وبسایت دانشگاه"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:78
+msgid "Languages"
+msgstr "زبان‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:80
+msgid "Languages you speak or are familiar with"
+msgstr "زبان‌هایی که صحبت می‌کنید یا آشنا هستید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:83
+msgid "Memberships & Certificates"
+msgstr "عضویت‌ها و گواهینامه‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:84
+msgid ""
+"Organizations or institutions of which you are a member, for example, the "
+"Medical System Organization + certificates and credentials (exclusively those "
+"related to the specialized field of the fax file content) that you have "
+"received"
+msgstr ""
+"سازمان‌ها یا نهادهایی که در آن‌ها عضو هستید، برای مثال سازمان نظام پزشکی + "
+"گواهینامه‌ها و سرتیفیکیت‌هایی (منحصرا موارد مرتبط با زمینه تخصصی محتوای فایل "
+"فاکس) که دریافت کرده‌اید"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:87
+msgid "Memberships"
+msgstr "عضویت‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:91
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:106
+msgid "Organization Name"
+msgstr "نام سازمان"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:95
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:110
+msgid "Organization Website"
+msgstr "وب سایت سازمان"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:99
+msgid "Certificates"
+msgstr "گواهینامه‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:102
+msgid "Certificate Name"
+msgstr "عنوان گواهی نامه"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:114
+msgid "Public Contact Points"
+msgstr "اطلاعات تماس عمومی"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:115
+msgid ""
+"This contact information will be displayed to all visitors on your public "
+"profile."
+msgstr ""
+"این اطلاعات تماس در پروفایل عمومی شما به عموم بازدیدکنندگان نمایش داده می‌شود."
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:118
+msgid "Phone"
+msgstr "شماره تماس"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:121
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:125
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:129
+msgid "External Accounts"
+msgstr "پروفایل‌های مرجع"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:126
+msgid "Your profile on reference websites like Reddit and Stack Exchange"
+msgstr "پروفایل شما در وبسایت های مرجع نظیر Reddit و Stack Exchange"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:133
+msgid "Website Title"
+msgstr "عنوان وب سایت"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:137
+msgid "Your Account Link"
+msgstr "لینک پروفایل شما"
 
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:16
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:16
@@ -728,6 +840,13 @@ msgstr ""
 #| msgid "Posts Count"
 msgid "Posts Owners"
 msgstr "تعداد نوشته‌ها"
+
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:48
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:83
+#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
+#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
+msgid "Created At"
+msgstr "تاریخ ایجاد"
 
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:28
 msgid "Teams"
@@ -760,12 +879,6 @@ msgstr "کاربران محتوا"
 msgid "Posts Owner"
 msgstr "تعداد نوشته‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:83
-#: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
-#: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
-msgid "Created At"
-msgstr "تاریخ ایجاد"
-
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:122
 msgid "Categories"
 msgstr "دسته‌بندی‌ها"
@@ -776,33 +889,120 @@ msgstr "دسته‌بندی‌ها"
 msgid "Product Categories"
 msgstr "دسته‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:149
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:52
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:67
+msgid "Edit Needed"
+msgstr "نیازمند اصلاح"
+
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:56
+msgid "Send post to correction"
+msgstr "ارسال نوشته برای اصلاح"
+
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:59
+msgid "Does this article really need to be corrected?"
+msgstr "آیا این نوشته، واقعا نیازمند اصلاح است؟"
+
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:60
+msgid ""
+"If submitted for correction, the content producer will again have the "
+"opportunity to complete or make further changes to the post and also resubmit "
+"it for review."
+msgstr ""
+"در صورت ارسال جهت اصلاح، کاربر محتوا مجددا امکان تکمیل یا اعمال تغییرات بیشتر "
+"در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:112
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:164
 msgid "Your request is not valid."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:153
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:120
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:168
 msgid "You do not have the required permissions to perform this action."
 msgstr "شما مجوز لازم برای انجام این عملیات را ندارید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:159
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:126
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:174
 #, fuzzy
 #| msgid "Post Not Found"
 msgid "Post not found"
 msgstr "نوشته مورد نظر پیدا نشد"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:163
+#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:139
+msgid ""
+"Post submitted for correction successfully. the content producer will again "
+"have the opportunity to complete or make further changes to the post and also "
+"resubmit it for review."
+msgstr ""
+"نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا اعمال "
+"تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:27
+#: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:40
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:40
+#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:34
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:183
+msgid "Invalid post type"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Produced.php:19
+msgid "Produced Post"
+msgstr "نوشته شده"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Produced.php:20
+msgid "Produced Posts"
+msgstr "نوشته‌شده‌ها"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Produced.php:32
+#, fuzzy
+#| msgid "File Request"
+msgid "User Request"
+msgstr "درخواست فایل"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:19
+msgid "Published Post"
+msgstr "منتشر شده"
+
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:20
+msgid "Published Posts"
+msgstr "منتشر شده‌ها"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:82
+#, fuzzy, php-format
+#| msgid ""
+#| "An error occurred while attempting to %s. Please try again or contact "
+#| "support if the problem persists."
+msgid ""
+"An error occurred while attempting to %s. Please try again or contact support "
+"if the problem persists"
+msgstr ""
+"هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه مشکل "
+"با پشتیبانی تماس بگیرید."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:83
+#, fuzzy
+#| msgid "No active revision exists"
+msgid "view revision preview"
+msgstr "هیچ رونوشت فعالی وجود ندارد"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:178
 msgid "Just published post can have a revision."
 msgstr "تنها نوشته‌های منتشر شده می‌توانند رونوشت داشته باشند."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:182
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:202
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:201
 msgid "Revision approved successfully."
 msgstr "رونوشت پذیرفته شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:185
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:205
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:223
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:248
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:204
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:222
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:240
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:265
 #, php-format
 msgid ""
 "An error occurred while attempting to %s. Please try again or contact support "
@@ -811,23 +1011,31 @@ msgstr ""
 "هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه مشکل "
 "با پشتیبانی تماس بگیرید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:186
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:205
 msgid "approve the revision"
 msgstr "پذیرفتن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:206
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:219
+msgid ""
+"Revision rejected successfully. the content producer, will be given access to "
+"make more changes to the revision."
+msgstr ""
+"رونوشت با موفقیت رد شد. کاربر محتوا، می‌تواند تغییرات خود را روی رونوشت اعمال "
+"کند."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:223
 msgid "reject the revision"
 msgstr "رد کردن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:220
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:237
 msgid "Your revision submission canceled successfully."
 msgstr "بازبینی رونوشت ارسالی با موفقیت لغو شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:224
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:241
 msgid "cancel the revision submission"
 msgstr "لغو ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:240
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:257
 msgid ""
 "This revision has been submitted for review and cannot be deleted. Please "
 "cancel the submission first."
@@ -835,45 +1043,45 @@ msgstr ""
 "این رونوشت برای بازبینی ارسال شده و قابل حذف نیست. لطفا ابتدا ارسال برای "
 "بازبینی را لغو کنید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:245
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:262
 msgid "Revision deleted successfully."
 msgstr "رونوشت با موفقیت حذف شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:249
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:266
 msgid "delete the revision"
 msgstr "حذف رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:322
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:336
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:341
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:357
 msgid "Manage Revision"
 msgstr "مدیریت رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:372
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:499
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:396
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:523
 #, php-format
 msgid "%s at %s"
 msgstr "%s ساعت %s"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:389
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:545
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:413
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:569
 msgid "Compare with Published version"
 msgstr "مقایسه با نسخه منتشر شده"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:403
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:527
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:427
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:551
 msgid "Submitted on"
 msgstr "ارسال شده برای بازبینی در"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:425
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:438
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:449
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:462
 msgid "Reject Revision"
 msgstr "رد رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:429
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:453
 msgid "Are you sure about rejecting this revision?"
 msgstr "آیا از رد کردن این رونوشت مطمئن هستید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:430
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:454
 msgid ""
 "If you reject the revision, the content producer, will be given access to "
 "make more changes to the revision."
@@ -881,16 +1089,16 @@ msgstr ""
 "در صورت رد رونوشت، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات بیشتر در "
 "رونوشت را خواهد داشت."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:434
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:458
 msgid "Yes, reject it!"
 msgstr "بله، رد شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:445
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:454
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:469
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:478
 msgid "Approve Revision"
 msgstr "پذیرفتن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:447
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:471
 msgid ""
 "Are you sure you want to approve this revision? This action is irreversible "
 "and the revision content will replace the published version permanently."
@@ -898,81 +1106,81 @@ msgstr ""
 "ایا مطمئنید که می‌خواهید این رونوشت را تایید کنید؟ این عملیات غیر قابل بازگشت "
 "بوده و محتوای رونوشت جایگزین نسخه منتشر شده، خواهد شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:450
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:474
 msgid "Yes, approve it!"
 msgstr "بله، پذیرفته شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:461
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:485
 msgid ""
 "The content producer is still making changes to the revision of this post."
 msgstr "کاربر محتوا، هنوز مشغول اعمال تغییرات در رونوشت این نوشته است."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:466
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:490
 msgid "No revision has been created for this post yet."
 msgstr "هنوز هیچ رونوشتی برای این نوشته ایجاد نشده است."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:514
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:538
 msgid "Save Revision"
 msgstr "ذخیره رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:559
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:583
 msgid "Published on"
 msgstr "منتشر شده در"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:579
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:588
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:603
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:612
 msgid "Delete Revision"
 msgstr "حذف رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:581
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:605
 msgid ""
 "Are you sure you want to delete this revision? This action cannot be undone!"
 msgstr "آیا مطمئنید که می‌خواهید این نسخه را حذف کنید؟ این عمل قابل بازگشت نیست!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:584
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:608
 msgid "Yes, Delete it!"
 msgstr "بله، حذف شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:594
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:609
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:618
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:633
 msgid "Send Revision"
 msgstr "ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:596
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:620
 msgid "Are you sure you want to submit this revision for review?"
 msgstr "آیا از ارسال این رونوشت برای بازبینی مطمئن هستید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:600
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:624
 msgid "Yes, Sent it!"
 msgstr "بله، ارسال شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:623
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:632
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:647
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:656
 msgid "Cancel Revision Submission"
 msgstr "لغو ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:625
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:649
 msgid ""
 "Are you sure you want to cancel the submission of this revision for review?"
 msgstr "آیا مطمئنید که می‌خواهید ارسال این رونوشت برای بازبینی را لغو کنید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:628
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:652
 msgid "Yes, Cancel it!"
 msgstr "بله، لغو شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:644
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:668
 msgid "No active revision exists"
 msgstr "هیچ رونوشت فعالی وجود ندارد"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:650
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:674
 msgid "Create Revision"
 msgstr "ایجاد رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:743
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:767
 msgid "revision not found."
 msgstr "رونوشت بافت نشد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:748
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:772
 msgid ""
 "This revision has been submitted for review and cannot be modified. Please "
 "cancel the submission first."
@@ -980,73 +1188,73 @@ msgstr ""
 "این رونوشت برای بازبینی ارسال شده و قابل ویرایش نیست. لطفا ابتدا ارسال برای "
 "بازبینی را لغو کنید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:766
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:790
 msgid "Can not do this, because this post, already has a revision."
 msgstr ""
 "نمی‌توان این عملیات را انجام داد، چون این نوشته همین الان دارای یک رونوشت هست."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:843
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:867
 msgid "Security check failed for processing author changes."
 msgstr "بررسی امنیتی برای پردازش تغییرات نویسنده ناموفق بود."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:890
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:914
 msgid "The author's changes have been approved and published."
 msgstr "تغییرات نویسنده تایید و منتشر شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:894
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:918
 msgid "Failed to approve and publish changes."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:895
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:919
 msgid "Error: "
 msgstr "خطا: "
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:906
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:930
 msgid "the author's changes have been rejected."
 msgstr "تغییرات نویسنده رد شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:911
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:935
 msgid "Pending revision not found or invalid for action."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:76
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:75
 msgid "Post Owner"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:170
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:169
 msgid "Cost of Internship"
 msgstr "هزینه کارآموزی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:177
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:176
 msgid "Team Share"
 msgstr "سهم تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:178
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:177
 #, php-format
 msgid "%s of total team sales"
 msgstr "%s از کل فروش تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:182
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:181
 msgid "User Share"
 msgstr "سهم کاربر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:183
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:182
 msgid "User-to-Team Traffic Ratio"
 msgstr "نسبت ترافیک کاربر به تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:189
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:188
 msgid "Manager Share"
 msgstr "سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:190
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:189
 msgid "Percentage increase in team traffic divided by team size"
 msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:194
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:193
 msgid "Manager's share cap"
 msgstr "سقف سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:253
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:252
 #, php-format
 msgid "Team of %s"
 msgstr "تیم %s"
@@ -1067,22 +1275,7 @@ msgstr "ترافیک روز"
 msgid "Daily Traffics"
 msgstr "ترافیک‌های روزانه"
 
-#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:34
-msgid "Date"
-msgstr "تاریخ"
-
-#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:69
-msgid "This Week"
-msgstr "هفته جاری"
-
-#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:70
-#, php-format
-msgid "%s week ago"
-msgid_plural "%s weeks ago"
-msgstr[0] "%s هفته قبل"
-msgstr[1] "%s هفته قبل"
-
-#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:139
+#: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Daily.php:88
 msgid "Invalid object type"
 msgstr ""
 
@@ -1159,10 +1352,6 @@ msgstr "ترافیک نوشته‌ها"
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:22
 msgid "Display the most viewed posts."
 msgstr ""
-
-#: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:40
-msgid "Post Type"
-msgstr "نوع نوشته"
 
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:45
 msgid "Count"
@@ -1637,6 +1826,65 @@ msgstr "نسخه %s - %s"
 msgid "Changes of %s"
 msgstr "تغییرات نسخه %s"
 
+#, fuzzy
+#~| msgid "Just published post can have a revision."
+#~ msgid "Just pending post can be reject."
+#~ msgstr "تنها نوشته‌های منتشر شده می‌توانند رونوشت داشته باشند."
+
+#~ msgid ""
+#~ "Post rejected successfully. the content producer, will be given access to "
+#~ "make more changes to the post and send it to check again."
+#~ msgstr ""
+#~ "در صورت رد کردن نوشته، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات "
+#~ "بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#~ msgid "Yes, Reject it!"
+#~ msgstr "بله، رد شود!"
+
+#~ msgid "Need to be Edit"
+#~ msgstr "به اصلاح نیاز دارد"
+
+#~ msgid "Are you sure about rejecting this post?"
+#~ msgstr "آیا از رد کردن این نوشته مطمئن هستید؟"
+
+#~ msgid "Rejection"
+#~ msgstr "رد کردن نوشته"
+
+#~ msgid "Reject"
+#~ msgstr "رد کردن"
+
+#~ msgctxt "post"
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Are you sure you want to reject this post?"
+#~ msgstr "آیا از رد کردن این نوشته مطمئن هستید؟"
+
+#~ msgid "Content Count"
+#~ msgstr "تعداد محتوا"
+
+#~ msgid "Your Performance"
+#~ msgstr "عملکرد شما"
+
+#, php-format
+#~ msgid "%s Performance"
+#~ msgstr "عملکرد %s"
+
+#~ msgid "Article"
+#~ msgstr "مقاله"
+
+#~ msgid "This Week"
+#~ msgstr "هفته جاری"
+
+#, php-format
+#~ msgid "%s week ago"
+#~ msgid_plural "%s weeks ago"
+#~ msgstr[0] "%s هفته قبل"
+#~ msgstr[1] "%s هفته قبل"
+
 #~ msgid "cancel the submit revision"
 #~ msgstr "لغو ارسال برای بازبینی"
 
@@ -1669,12 +1917,6 @@ msgstr "تغییرات نسخه %s"
 
 #~ msgid "Medium for products"
 #~ msgstr "رسانه برای محصولات"
-
-#~ msgid "Articles"
-#~ msgstr "مقالات"
-
-#~ msgid "Article"
-#~ msgstr "مقاله"
 
 #~ msgid "Change Log"
 #~ msgstr "گزارش تغییرات"
