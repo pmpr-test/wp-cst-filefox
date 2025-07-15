@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-07-11 02:08+0330\n"
+"POT-Creation-Date: 2025-07-13 22:42+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -47,8 +47,8 @@ msgid "Author"
 msgstr "نویسنده"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:106
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:404
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:561
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:588
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:745
 #: src/Pmpr/Custom/Filefox/Woocommerce/Single.php:116
 msgid "Preview"
 msgstr "پیش‌نمایش"
@@ -56,7 +56,7 @@ msgstr "پیش‌نمایش"
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:107
 #, php-format
 msgid "Preview &#8220;%s&#8221;"
-msgstr ""
+msgstr "پیشنمایش &#8220;%s&#8221;"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:158
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:223
@@ -65,8 +65,8 @@ msgstr ""
 #: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:27
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:32
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:70
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:80
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:69
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:79
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:31
 msgid "Team"
 msgstr "تیم"
@@ -81,7 +81,7 @@ msgstr "تعداد کلمه"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:222
 msgid "No team assigned"
-msgstr ""
+msgstr "تیمی منتسب نشده است"
 
 #: src/Pmpr/Custom/Filefox/CPT/News.php:29
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:261
@@ -232,15 +232,15 @@ msgstr "درخواست"
 msgid "Provide File"
 msgstr "ارائه فایل"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:82
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:84
 msgid "You have no team yet"
 msgstr "شما هنوز تیمی ندارید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:84
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:87
 msgid "You are not applied for any agreement yet."
 msgstr "شما هنوز برای هیچ الگوی درآمدی درخواست ثبت نکرده‌اید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:86
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:90
 msgid "Access denied."
 msgstr "امکان دسترسی وجود ندارد."
 
@@ -368,8 +368,8 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:317
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:123
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:332
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:122
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -502,10 +502,8 @@ msgid "Content Performance"
 msgstr "عملکرد محتوایی"
 
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:182
-#, fuzzy
-#| msgid "View your performance"
 msgid "View your content performance"
-msgstr "عملکرد خود را مشاهده کنید"
+msgstr "عملکرد محتوایی خود را ببینید"
 
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:186
 msgid "My Content Performance"
@@ -650,8 +648,8 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:283
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:294
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:294
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:118
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:309
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:117
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
@@ -884,58 +882,8 @@ msgid "Categories"
 msgstr "دسته‌بندی‌ها"
 
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:127
-#, fuzzy
-#| msgid "Categories"
 msgid "Product Categories"
-msgstr "دسته‌بندی‌ها"
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:52
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:67
-msgid "Edit Needed"
-msgstr "نیازمند اصلاح"
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:56
-msgid "Send post to correction"
-msgstr "ارسال نوشته برای اصلاح"
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:59
-msgid "Does this article really need to be corrected?"
-msgstr "آیا این نوشته، واقعا نیازمند اصلاح است؟"
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:60
-msgid ""
-"If submitted for correction, the content producer will again have the "
-"opportunity to complete or make further changes to the post and also resubmit "
-"it for review."
-msgstr ""
-"در صورت ارسال جهت اصلاح، کاربر محتوا مجددا امکان تکمیل یا اعمال تغییرات بیشتر "
-"در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:112
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:164
-msgid "Your request is not valid."
-msgstr ""
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:120
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:168
-msgid "You do not have the required permissions to perform this action."
-msgstr "شما مجوز لازم برای انجام این عملیات را ندارید."
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:126
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:174
-#, fuzzy
-#| msgid "Post Not Found"
-msgid "Post not found"
-msgstr "نوشته مورد نظر پیدا نشد"
-
-#: src/Pmpr/Custom/Filefox/Salary/Rejection.php:139
-msgid ""
-"Post submitted for correction successfully. the content producer will again "
-"have the opportunity to complete or make further changes to the post and also "
-"resubmit it for review."
-msgstr ""
-"نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا اعمال "
-"تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+msgstr "دسته‌بندی‌های محصول"
 
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:27
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:40
@@ -949,7 +897,7 @@ msgstr "تاریخ"
 
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:183
 msgid "Invalid post type"
-msgstr ""
+msgstr "نوع نوشته نامعتبر"
 
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Produced.php:19
 msgid "Produced Post"
@@ -960,10 +908,8 @@ msgid "Produced Posts"
 msgstr "نوشته‌شده‌ها"
 
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Produced.php:32
-#, fuzzy
-#| msgid "File Request"
 msgid "User Request"
-msgstr "درخواست فایل"
+msgstr "درخواست کاربر"
 
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:19
 msgid "Published Post"
@@ -973,36 +919,86 @@ msgstr "منتشر شده"
 msgid "Published Posts"
 msgstr "منتشر شده‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:82
-#, fuzzy, php-format
-#| msgid ""
-#| "An error occurred while attempting to %s. Please try again or contact "
-#| "support if the problem persists."
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:100
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:111
+msgid "Cancel Edit Needed"
+msgstr "انصراف از اصلاح"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:104
+msgid "Cancel post correction"
+msgstr "انصراف از اصلاح نوشته"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:105
+msgid "Do you really want to cancel post correction?"
+msgstr "آیا واقعاً می‌خواهید درخوسات اصلاح نوشته را لغو کنید؟"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:127
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:142
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:168
+msgid "Edit Needed"
+msgstr "نیازمند اصلاح"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:131
+msgid "Send post to correction"
+msgstr "ارسال نوشته برای اصلاح"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:134
+msgid "Does this article really need to be corrected?"
+msgstr "آیا این نوشته، واقعا نیازمند اصلاح است؟"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:135
+msgid ""
+"If submitted for correction, the content producer will again have the "
+"opportunity to complete or make further changes to the post and also resubmit "
+"it for review."
+msgstr ""
+"در صورت ارسال جهت اصلاح، کاربر محتوا مجددا امکان تکمیل یا اعمال تغییرات بیشتر "
+"در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:177
+msgid "Pending"
+msgstr "در انتظار بررسی"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:200
+#, php-format
 msgid ""
 "An error occurred while attempting to %s. Please try again or contact support "
 "if the problem persists"
 msgstr ""
 "هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه مشکل "
-"با پشتیبانی تماس بگیرید."
+"با پشتیبانی تماس بگیرید"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:83
-#, fuzzy
-#| msgid "No active revision exists"
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:201
 msgid "view revision preview"
-msgstr "هیچ رونوشت فعالی وجود ندارد"
+msgstr "مشاهده پیش‌نمایش رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:178
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:282
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:413
+msgid "Your request is not valid."
+msgstr "درخواست شما معتبر نیست."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:289
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:421
+msgid "You do not have the required permissions to perform this action."
+msgstr "شما مجوز لازم برای انجام این عملیات را ندارید."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:295
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:426
+msgid "Post not found"
+msgstr "نوشته یافت نشد"
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:299
 msgid "Just published post can have a revision."
 msgstr "تنها نوشته‌های منتشر شده می‌توانند رونوشت داشته باشند."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:201
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:324
 msgid "Revision approved successfully."
 msgstr "رونوشت پذیرفته شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:204
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:222
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:240
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:265
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:327
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:345
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:363
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:449
 #, php-format
 msgid ""
 "An error occurred while attempting to %s. Please try again or contact support "
@@ -1011,11 +1007,11 @@ msgstr ""
 "هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه مشکل "
 "با پشتیبانی تماس بگیرید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:205
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:328
 msgid "approve the revision"
 msgstr "پذیرفتن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:219
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:342
 msgid ""
 "Revision rejected successfully. the content producer, will be given access to "
 "make more changes to the revision."
@@ -1023,19 +1019,32 @@ msgstr ""
 "رونوشت با موفقیت رد شد. کاربر محتوا، می‌تواند تغییرات خود را روی رونوشت اعمال "
 "کند."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:223
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:346
 msgid "reject the revision"
 msgstr "رد کردن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:237
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:360
 msgid "Your revision submission canceled successfully."
 msgstr "بازبینی رونوشت ارسالی با موفقیت لغو شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:241
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:364
 msgid "cancel the revision submission"
 msgstr "لغو ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:257
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:381
+msgid "Post correction canceled successfully."
+msgstr "درخواست اصلاح نوشته با موفقیت لغو شد."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:396
+msgid ""
+"Post submitted for correction successfully. the content producer will again "
+"have the opportunity to complete or make further changes to the post and also "
+"resubmit it for review."
+msgstr ""
+"نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا اعمال "
+"تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:441
 msgid ""
 "This revision has been submitted for review and cannot be deleted. Please "
 "cancel the submission first."
@@ -1043,45 +1052,45 @@ msgstr ""
 "این رونوشت برای بازبینی ارسال شده و قابل حذف نیست. لطفا ابتدا ارسال برای "
 "بازبینی را لغو کنید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:262
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:446
 msgid "Revision deleted successfully."
 msgstr "رونوشت با موفقیت حذف شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:266
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:450
 msgid "delete the revision"
 msgstr "حذف رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:341
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:357
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:525
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:541
 msgid "Manage Revision"
 msgstr "مدیریت رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:396
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:523
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:580
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:707
 #, php-format
 msgid "%s at %s"
 msgstr "%s ساعت %s"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:413
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:569
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:597
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:753
 msgid "Compare with Published version"
 msgstr "مقایسه با نسخه منتشر شده"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:427
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:551
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:611
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:735
 msgid "Submitted on"
 msgstr "ارسال شده برای بازبینی در"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:449
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:462
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:633
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:646
 msgid "Reject Revision"
 msgstr "رد رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:453
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:637
 msgid "Are you sure about rejecting this revision?"
 msgstr "آیا از رد کردن این رونوشت مطمئن هستید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:454
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:638
 msgid ""
 "If you reject the revision, the content producer, will be given access to "
 "make more changes to the revision."
@@ -1089,16 +1098,16 @@ msgstr ""
 "در صورت رد رونوشت، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات بیشتر در "
 "رونوشت را خواهد داشت."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:458
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:642
 msgid "Yes, reject it!"
 msgstr "بله، رد شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:469
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:478
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:653
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:662
 msgid "Approve Revision"
 msgstr "پذیرفتن رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:471
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:655
 msgid ""
 "Are you sure you want to approve this revision? This action is irreversible "
 "and the revision content will replace the published version permanently."
@@ -1106,81 +1115,81 @@ msgstr ""
 "ایا مطمئنید که می‌خواهید این رونوشت را تایید کنید؟ این عملیات غیر قابل بازگشت "
 "بوده و محتوای رونوشت جایگزین نسخه منتشر شده، خواهد شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:474
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:658
 msgid "Yes, approve it!"
 msgstr "بله، پذیرفته شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:485
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:669
 msgid ""
 "The content producer is still making changes to the revision of this post."
 msgstr "کاربر محتوا، هنوز مشغول اعمال تغییرات در رونوشت این نوشته است."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:490
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:674
 msgid "No revision has been created for this post yet."
 msgstr "هنوز هیچ رونوشتی برای این نوشته ایجاد نشده است."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:538
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:722
 msgid "Save Revision"
 msgstr "ذخیره رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:583
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:767
 msgid "Published on"
 msgstr "منتشر شده در"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:603
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:612
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:787
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:796
 msgid "Delete Revision"
 msgstr "حذف رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:605
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:789
 msgid ""
 "Are you sure you want to delete this revision? This action cannot be undone!"
 msgstr "آیا مطمئنید که می‌خواهید این نسخه را حذف کنید؟ این عمل قابل بازگشت نیست!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:608
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:792
 msgid "Yes, Delete it!"
 msgstr "بله، حذف شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:618
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:633
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:802
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:817
 msgid "Send Revision"
 msgstr "ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:620
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:804
 msgid "Are you sure you want to submit this revision for review?"
 msgstr "آیا از ارسال این رونوشت برای بازبینی مطمئن هستید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:624
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:808
 msgid "Yes, Sent it!"
 msgstr "بله، ارسال شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:647
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:656
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:831
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:840
 msgid "Cancel Revision Submission"
 msgstr "لغو ارسال برای بازبینی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:649
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:833
 msgid ""
 "Are you sure you want to cancel the submission of this revision for review?"
 msgstr "آیا مطمئنید که می‌خواهید ارسال این رونوشت برای بازبینی را لغو کنید؟"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:652
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:836
 msgid "Yes, Cancel it!"
 msgstr "بله، لغو شود!"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:668
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:852
 msgid "No active revision exists"
 msgstr "هیچ رونوشت فعالی وجود ندارد"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:674
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:858
 msgid "Create Revision"
 msgstr "ایجاد رونوشت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:767
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:956
 msgid "revision not found."
 msgstr "رونوشت بافت نشد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:772
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:961
 msgid ""
 "This revision has been submitted for review and cannot be modified. Please "
 "cancel the submission first."
@@ -1188,73 +1197,73 @@ msgstr ""
 "این رونوشت برای بازبینی ارسال شده و قابل ویرایش نیست. لطفا ابتدا ارسال برای "
 "بازبینی را لغو کنید."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:790
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:979
 msgid "Can not do this, because this post, already has a revision."
 msgstr ""
 "نمی‌توان این عملیات را انجام داد، چون این نوشته همین الان دارای یک رونوشت هست."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:867
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1056
 msgid "Security check failed for processing author changes."
 msgstr "بررسی امنیتی برای پردازش تغییرات نویسنده ناموفق بود."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:914
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1103
 msgid "The author's changes have been approved and published."
 msgstr "تغییرات نویسنده تایید و منتشر شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:918
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1107
 msgid "Failed to approve and publish changes."
-msgstr ""
+msgstr "تایید و انتشار تغییرات با شکست مواجه شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:919
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1108
 msgid "Error: "
 msgstr "خطا: "
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:930
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1119
 msgid "the author's changes have been rejected."
 msgstr "تغییرات نویسنده رد شد."
 
-#: src/Pmpr/Custom/Filefox/Salary/Revision.php:935
+#: src/Pmpr/Custom/Filefox/Salary/Revision.php:1124
 msgid "Pending revision not found or invalid for action."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:75
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:74
 msgid "Post Owner"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:169
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:168
 msgid "Cost of Internship"
 msgstr "هزینه کارآموزی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:176
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:175
 msgid "Team Share"
 msgstr "سهم تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:177
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:176
 #, php-format
 msgid "%s of total team sales"
 msgstr "%s از کل فروش تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:181
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:180
 msgid "User Share"
 msgstr "سهم کاربر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:182
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:181
 msgid "User-to-Team Traffic Ratio"
 msgstr "نسبت ترافیک کاربر به تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:188
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:187
 msgid "Manager Share"
 msgstr "سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:189
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:188
 msgid "Percentage increase in team traffic divided by team size"
 msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:193
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:192
 msgid "Manager's share cap"
 msgstr "سقف سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:252
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:251
 #, php-format
 msgid "Team of %s"
 msgstr "تیم %s"
@@ -1757,7 +1766,7 @@ msgstr "نمایش در بخش شورتکد محصول"
 
 #: src/Pmpr/Custom/Filefox/Woocommerce/Review.php:38
 msgid "Your request is invalid."
-msgstr ""
+msgstr "درخواست شما نامعتبر است."
 
 #: src/Pmpr/Custom/Filefox/Woocommerce/Review.php:42
 msgid "You do not have the necessary permission to do this."
@@ -1825,6 +1834,9 @@ msgstr "نسخه %s - %s"
 #, php-format
 msgid "Changes of %s"
 msgstr "تغییرات نسخه %s"
+
+#~ msgid "Pending to Publish"
+#~ msgstr "در انتظار بررسی"
 
 #, fuzzy
 #~| msgid "Just published post can have a revision."
