@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-08-09 15:58+0330\n"
+"POT-Creation-Date: 2025-08-17 13:10+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -62,11 +62,11 @@ msgstr "پیشنمایش &#8220;%s&#8221;"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:236
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:303
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:314
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:38
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:39
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:31
 #: src/Pmpr/Custom/Filefox/Salary/Report/Model/Published.php:32
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:67
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:77
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:99
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:109
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:31
 msgid "Team"
 msgstr "تیم"
@@ -134,7 +134,7 @@ msgid "Short Description"
 msgstr "توضیح کوتاه"
 
 #: src/Pmpr/Custom/Filefox/CTX/Material.php:25
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:78
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:70
 msgid "Materials"
 msgstr "ماهیت‌ها"
 
@@ -227,7 +227,7 @@ msgid "Submit Request"
 msgstr "ثبت درخواست"
 
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Request.php:19
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:43
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:44
 msgid "Request"
 msgstr "درخواست"
 
@@ -268,73 +268,77 @@ msgid "Expire At"
 msgstr "تاریخ انقضا"
 
 #: src/Pmpr/Custom/Filefox/LoginAs/Impersonation.php:60
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:48
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:118
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:53
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:110
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:88
 #: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:59
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:112
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:210
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:52
+msgid "Token need to be change."
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:129
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:227
 msgid "Must be logged in."
 msgstr "باید وارد سیستم شوید."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:117
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:134
 msgid "Insufficient permissions."
 msgstr "مجوزهای ناکافی."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:122
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:139
 msgid "Invalid user."
 msgstr "کاربر نامعتبر است."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:127
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:144
 msgid "Invalid nonce."
 msgstr "مجوز نامعتبر است."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:132
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:149
 msgid "Cannot impersonate administrators."
 msgstr "نمی‌توان به عنوان کاربران مدیر وارد سیستم شوید."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:137
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:154
 msgid "User not found."
 msgstr "کاربر مورد نظر یافت نشد."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:215
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:232
 msgid "No impersonation active."
 msgstr "جعل هویت فعالی وجود ندارد."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:223
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:240
 msgid "Invalid or expired impersonation."
 msgstr "جعل هویت نامعتبر یا منقضی شده."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:231
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:248
 msgid "Impersonation expired."
 msgstr "جعل هویت منقضی شده."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:239
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:256
 msgid "Original admin account not found."
 msgstr "حساب اصلی مدیر یافت نشد."
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:289
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:290
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:317
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:306
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:307
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:334
 msgid "Login As"
 msgstr "ورود به عنوان"
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:315
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:332
 msgid "Administrator Tools"
 msgstr "ابزارهای مدیر کل"
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:316
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:333
 msgid "Login as this user"
 msgstr "ورود به عنوان این کاربر"
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:398
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:415
 msgid "Return to my account"
 msgstr "بازگشت به حساب خودم"
 
-#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:402
+#: src/Pmpr/Custom/Filefox/LoginAs/LoginAs.php:419
 msgid "Return to original admin account"
 msgstr "بازگشت به حساب اصلی مدیر"
 
@@ -350,53 +354,63 @@ msgstr "شما هنوز برای هیچ الگوی درآمدی درخواست �
 msgid "Access denied."
 msgstr "امکان دسترسی وجود ندارد."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:128
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:133
 msgid "Your Team"
 msgstr "تیم شما"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:133
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:138
 msgid "Best Team"
 msgstr "بهترین تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:138
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:143
 msgid "All Teams Average"
 msgstr "میانگین همه تیم‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:143
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:148
 msgid "Worst Team"
 msgstr "بدترین تیم"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:230
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:397
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:566
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:287
 msgid "My Team"
 msgstr "تیم من"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:235
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:364
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:402
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:461
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:571
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:725
 msgid "Highest"
 msgstr "بیشترین"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:240
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:369
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:407
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:466
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:576
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:730
 msgid "Average"
 msgstr "میانگین"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:245
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:374
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:412
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:471
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:581
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:735
 msgid "Lowest"
 msgstr "کمترین"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:359
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:405
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:456
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:502
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:720
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:766
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:283
 msgid "Me"
 msgstr "من"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:425
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:522
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:786
 msgid "You dont have a team yet."
 msgstr "شما هنوز تیمی ندارید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:433
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Performance.php:794
 msgid "permission dined"
 msgstr "دسترسی مسدود شده است"
 
@@ -457,10 +471,10 @@ msgstr "این تیم مدیر ندارد."
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:223
 #, php-format
-msgid "%s Post"
-msgid_plural "%s Posts"
-msgstr[0] "%s نوشته"
-msgstr[1] "%s نوشته"
+msgid "%s Page"
+msgid_plural "%s Pages"
+msgstr[0] "%s صفحه"
+msgstr[1] "%s صفحه"
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:348
 msgid "Sorry you have no request yet."
@@ -478,8 +492,8 @@ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام ک
 
 #: src/Pmpr/Custom/Filefox/Panel/Controller/Team.php:369
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:420
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:120
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:428
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:152
 msgid "Content Manager"
 msgstr "مدیر محتوا"
 
@@ -623,8 +637,7 @@ msgid ""
 "See how many posts you’ve produced and track your daily, weekly and monthly "
 "producing trends."
 msgstr ""
-"تعداد پست‌های نوشته شده و روند پیشرفت روزانه، هفتگی و ماهانه خود را مشاهده "
-"کنید."
+"تعداد صفحات نوشته شده و روند پیشرفت روزانه، هفتگی و ماهانه خود را مشاهده کنید."
 
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:193
 msgid "My Team Content Performance"
@@ -644,11 +657,11 @@ msgstr "عملکرد محتوایی دیگر کاربران"
 
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:201
 msgid ""
-"See how other users are performing and compare their publishing activity with "
-"yours."
+"See how other users are performing and compare their daily producing trends "
+"with yours."
 msgstr ""
-"عملکرد سایر کاربران را مشاهده کرده و فعالیت انتشار آن‌ها را با خودتان مقایسه "
-"کنید."
+"عملکرد صفحات نوشته شده سایر کاربران را مشاهده کرده و روند پیشرفت آن‌ها را با "
+"خودتان مقایسه کنید."
 
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:207
 msgid "Other Teams Performance"
@@ -701,7 +714,7 @@ msgstr "جزئیات کاربر"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:252
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:304
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:315
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:33
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:34
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Model/Traffic.php:32
 msgid "Post"
 msgstr "نوشته‌"
@@ -801,8 +814,8 @@ msgstr "روزانه"
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:305
 #: src/Pmpr/Custom/Filefox/Panel/Panel.php:316
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:17
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:397
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:115
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:405
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:147
 msgid "Content Producer"
 msgstr "کاربر محتوا"
 
@@ -982,52 +995,56 @@ msgstr "لینک پروفایل شما"
 msgid "FileFox Custom (%s)"
 msgstr "سفارشی فایل‌فاکس (%s)"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:22
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:23
 msgid "Post Owners"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:23
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:24
 #, fuzzy
 #| msgid "Posts Count"
 msgid "Posts Owners"
 msgstr "تعداد نوشته‌ها"
 
+#: src/Pmpr/Custom/Filefox/Salary/Model/PostOwner.php:49
+msgid "Published At"
+msgstr "منتشر شده در"
+
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:32
 msgid "Teams"
 msgstr "تیم‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:60
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:52
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:36
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:64
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:56
 msgid "Show to Search Engines"
 msgstr "نمایش به موتورهای جستجو"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:68
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:60
 msgid "Invite Code"
 msgstr "کد دعوت"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:73
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:65
 msgid "Description"
 msgstr "شرح"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:102
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:94
 msgid "Manager"
 msgstr "مدیر محتوا"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:108
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:100
 msgid "Producers"
 msgstr "کاربران محتوا"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:113
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:105
 #, fuzzy
 #| msgid "Posts Count"
 msgid "Posts Owner"
 msgstr "تعداد نوشته‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:135
+#: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:127
 msgid "Ask search engines to crawl this team content"
 msgstr "از موتورهای جستجو درخواست کن تا محتوای مربوط به این تیم را بررسی کنند"
 
@@ -1041,7 +1058,7 @@ msgstr "نوع نوشته"
 msgid "Date"
 msgstr "تاریخ"
 
-#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:182
+#: src/Pmpr/Custom/Filefox/Salary/Report/Model/Post.php:181
 msgid "Invalid post type"
 msgstr "نوع نوشته نامعتبر"
 
@@ -1065,7 +1082,7 @@ msgstr "منتشر شده"
 msgid "Published Posts"
 msgstr "منتشر شده‌ها"
 
-#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:77
+#: src/Pmpr/Custom/Filefox/Salary/Restriction.php:78
 #: src/Pmpr/Custom/Filefox/Salary/Revision.php:309
 #: src/Pmpr/Custom/Filefox/Salary/Revision.php:441
 msgid "You do not have the required permissions to perform this action."
@@ -1373,44 +1390,44 @@ msgstr "تغییرات نویسنده رد شد."
 msgid "Pending revision not found or invalid for action."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:72
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:104
 msgid "Post Owner"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:166
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:198
 msgid "Cost of Internship"
 msgstr "هزینه کارآموزی"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:173
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:205
 msgid "Team Share"
 msgstr "سهم تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:174
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:206
 #, php-format
 msgid "%s of total team sales"
 msgstr "%s از کل فروش تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:178
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:210
 msgid "User Share"
 msgstr "سهم کاربر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:179
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:211
 msgid "User-to-Team Traffic Ratio"
 msgstr "نسبت ترافیک کاربر به تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:185
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:217
 msgid "Manager Share"
 msgstr "سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:186
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:218
 msgid "Percentage increase in team traffic divided by team size"
 msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:190
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:222
 msgid "Manager's share cap"
 msgstr "سقف سهم مدیر"
 
-#: src/Pmpr/Custom/Filefox/Salary/Salary.php:249
+#: src/Pmpr/Custom/Filefox/Salary/Salary.php:281
 #, php-format
 msgid "Team of %s"
 msgstr "تیم %s"
@@ -1875,7 +1892,15 @@ msgid ""
 "First, select the material to load the categories related to the material."
 msgstr "ابتدا ماهیت را انتخاب کنید تا دسته‌بندی‌های مربوط به ماهیت بارگذاری شوند."
 
-#: src/Pmpr/Custom/Filefox/User.php:49
+#: src/Pmpr/Custom/Filefox/User.php:152
+msgid "Author Slug"
+msgstr "نامک نویسنده"
+
+#: src/Pmpr/Custom/Filefox/User.php:181
+msgid "Custom Fields"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/User.php:229
 msgid "Registered Date"
 msgstr "تاریخ ثبت‌نام"
 
@@ -1981,6 +2006,12 @@ msgstr "نسخه %s - %s"
 #, php-format
 msgid "Changes of %s"
 msgstr "تغییرات نسخه %s"
+
+#, php-format
+#~ msgid "%s Post"
+#~ msgid_plural "%s Posts"
+#~ msgstr[0] "%s نوشته"
+#~ msgstr[1] "%s نوشته"
 
 #~ msgid "Categories"
 #~ msgstr "دسته‌بندی‌ها"
