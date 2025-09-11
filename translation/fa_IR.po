@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-08-26 19:41+0330\n"
+"POT-Creation-Date: 2025-09-11 14:31+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -359,15 +359,15 @@ msgstr "بازگشت به حساب خودم"
 msgid "Return to original admin account"
 msgstr "بازگشت به حساب اصلی مدیر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:84
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:83
 msgid "You have no team yet"
 msgstr "شما هنوز تیمی ندارید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:87
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:86
 msgid "You are not applied for any agreement yet."
 msgstr "شما هنوز برای هیچ الگوی درآمدی درخواست ثبت نکرده‌اید."
 
-#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:90
+#: src/Pmpr/Custom/Filefox/Panel/Controller/Controller.php:89
 msgid "Access denied."
 msgstr "امکان دسترسی وجود ندارد."
 
@@ -1881,11 +1881,11 @@ msgstr "ارائه فایل"
 msgid "Category"
 msgstr "دسته‌بندی"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:99
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:98
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
-#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:101
+#: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:100
 msgid ""
 "First, select the material to load the categories related to the material."
 msgstr "ابتدا ماهیت را انتخاب کنید تا دسته‌بندی‌های مربوط به ماهیت بارگذاری شوند."
