@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-09-11 14:31+0330\n"
+"POT-Creation-Date: 2025-09-17 23:06+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -42,7 +42,7 @@ msgstr "مقاله تخصصی"
 #: src/Pmpr/Custom/Filefox/CPT/Product.php:186
 #: src/Pmpr/Custom/Filefox/CTX/CTX.php:46
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:135
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:26
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:29
 #: src/Pmpr/Custom/Filefox/Traits/RelatedTermsTrait.php:49
 msgid "Material"
 msgstr "ماهیت"
@@ -52,16 +52,12 @@ msgid "Author"
 msgstr "نویسنده"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:64
-#, fuzzy
-#| msgid "Author"
 msgid "All Authors"
-msgstr "نویسنده"
+msgstr "همه نویسندگان"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:74
-#, fuzzy
-#| msgid "Teams"
 msgid "All Teams"
-msgstr "تیم‌ها"
+msgstr "همه تیم‌ها"
 
 #: src/Pmpr/Custom/Filefox/CPT/CPT.php:202
 #: src/Pmpr/Custom/Filefox/Salary/Revision.php:608
@@ -137,12 +133,12 @@ msgid "Material can not be empty, please fill it."
 msgstr "فیلد ماهیت نمی‌تواند خالی باشد، لطفا آن را پر کنید."
 
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:147
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:41
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:50
 msgid "Posts Fallback Image"
 msgstr "تصویر جایگزین نوشته‌ها"
 
 #: src/Pmpr/Custom/Filefox/CTX/Category.php:148
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:42
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:51
 msgid "Displayed when a related post has no image."
 msgstr "در صورت عدم وجود تصویر نوشته، این تصویر نمایش داده می‌شود."
 
@@ -150,20 +146,21 @@ msgstr "در صورت عدم وجود تصویر نوشته، این تصویر 
 msgid "Short Description"
 msgstr "توضیح کوتاه"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:25
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:28
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:70
 msgid "Materials"
 msgstr "ماهیت‌ها"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:27
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:30
 msgid "Material for products"
 msgstr "ماهیت برای محصولات"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:37
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:46
 msgid "Search Placeholder"
 msgstr "متن نمایشی داخل فرم جستجو"
 
-#: src/Pmpr/Custom/Filefox/CTX/Material.php:46
+#: src/Pmpr/Custom/Filefox/CTX/Material.php:55
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:241
 msgid "Icon"
 msgstr "آیکون"
 
@@ -211,8 +208,8 @@ msgstr "قادر به یافتن فایل درخواستی نیستیم."
 
 #: src/Pmpr/Custom/Filefox/Frontend/Ajax.php:112
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:25
-#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:177
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:109
+#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:179
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:111
 #: src/Pmpr/Custom/Filefox/Storage/Storage.php:57
 msgid "Download"
 msgstr "دانلود"
@@ -221,25 +218,25 @@ msgstr "دانلود"
 msgid "Can not find related product"
 msgstr "نمی توان محصول مرتبط را پیدا کرد"
 
-#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:134
+#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:136
 msgid "File parameter missing."
 msgstr "پارامتر ضروری ارائه نشده‌اند."
 
-#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:175
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:119
+#: src/Pmpr/Custom/Filefox/Frontend/Page/Download.php:177
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:121
 msgid "Start Download"
 msgstr "شروع دانلود"
 
 #: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:19
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:69
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:71
 msgid "Request File"
 msgstr "درخواست فایل"
 
-#: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:29
+#: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:31
 msgid "Track Request"
 msgstr "پیگیری درخواست"
 
-#: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:31
+#: src/Pmpr/Custom/Filefox/Frontend/Page/Request/Download.php:33
 msgid "Submit Request"
 msgstr "ثبت درخواست"
 
@@ -858,67 +855,67 @@ msgstr "کل ترافیک صفحات"
 msgid "Performance of %s"
 msgstr "عملکرد %s"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:46
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:48
 msgid "Caption"
 msgstr "کپشن"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:47
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:49
 msgid "Professional Python programmer"
 msgstr "برنامه نویس حرفه‌ای پایتون"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:50
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:52
 msgid "Expertise"
 msgstr "تخصص"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:51
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:53
 msgid "Game console specialist"
 msgstr "متخصص کنسول‌های بازی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:54
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:56
 msgid "Aparat Introduce Link"
 msgstr "لینک معرفی آپارات"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:58
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:60
 msgid "Educational Information"
 msgstr "اطلاعات تحصیلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:61
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:63
 msgid "Place of Study"
 msgstr "محل تحصیل"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:62
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:64
 msgid "Tehran University"
 msgstr "دانشگاه تهران"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:65
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:67
 msgid "Field of Study"
 msgstr "رشته تحصیلی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:66
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:68
 msgid "Computer Engineering"
 msgstr "مهندسی کامپیوتر"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:69
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:71
 msgid "Degree"
 msgstr "مقطع"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:74
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:76
 msgid "Education Place Website"
 msgstr "وبسایت دانشگاه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:79
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:81
 msgid "Languages"
 msgstr "زبان‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:81
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:83
 msgid "Languages you speak or are familiar with"
 msgstr "زبان‌هایی که صحبت می‌کنید یا آشنا هستید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:84
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:86
 msgid "Memberships & Certificates"
 msgstr "عضویت‌ها و گواهینامه‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:85
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:87
 msgid ""
 "Organizations or institutions of which you are a member, for example, the "
 "Medical System Organization + certificates and credentials (exclusively those "
@@ -929,63 +926,82 @@ msgstr ""
 "گواهینامه‌ها و سرتیفیکیت‌هایی (منحصرا موارد مرتبط با زمینه تخصصی محتوای فایل "
 "فاکس) که دریافت کرده‌اید"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:88
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:90
 msgid "Memberships"
 msgstr "عضویت‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:92
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:107
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:94
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:123
 msgid "Organization Name"
 msgstr "نام سازمان"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:96
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:111
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:98
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:127
 msgid "Organization Website"
 msgstr "وب سایت سازمان"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:100
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:102
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:224
+msgid "Badges"
+msgstr "نشان‌ها"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:106
+msgid "Badge Name"
+msgstr "عنوان نشان"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:116
 msgid "Certificates"
 msgstr "گواهینامه‌ها"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:103
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:119
 msgid "Certificate Name"
 msgstr "عنوان گواهی نامه"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:115
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:131
 msgid "Public Contact Points"
 msgstr "اطلاعات تماس عمومی"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:116
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:132
 msgid ""
 "This contact information will be displayed to all visitors on your public "
 "profile."
 msgstr ""
 "این اطلاعات تماس در پروفایل عمومی شما به عموم بازدیدکنندگان نمایش داده می‌شود."
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:119
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:135
 msgid "Phone"
 msgstr "شماره تماس"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:122
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:138
 msgid "Email"
 msgstr "ایمیل"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:126
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:130
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:142
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:161
 msgid "External Accounts"
 msgstr "پروفایل‌های مرجع"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:127
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:143
 msgid "Your profile on reference websites like Reddit and Stack Exchange"
 msgstr "پروفایل شما در وبسایت های مرجع نظیر Reddit و Stack Exchange"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:134
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:146
+msgid "Stack Exchange Accounts"
+msgstr "حساب‌های Stack Exchange"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:149
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:165
 msgid "Website Title"
 msgstr "عنوان وب سایت"
 
-#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:138
-msgid "Your Account Link"
-msgstr "لینک پروفایل شما"
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:153
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:169
+msgid "Account Link"
+msgstr "لینک پروفایل"
+
+#: src/Pmpr/Custom/Filefox/Panel/Traits/UserTrait.php:157
+msgid "Account User ID"
+msgstr "شناسه حساب‌کاربری"
 
 #: src/Pmpr/Custom/Filefox/Salary/ContentManager.php:16
 #: src/Pmpr/Custom/Filefox/Salary/ContentProducer.php:16
@@ -1013,6 +1029,7 @@ msgstr "تیم‌ها"
 
 #: src/Pmpr/Custom/Filefox/Salary/Model/Team.php:52
 #: src/Pmpr/Custom/Filefox/Salary/Traffic/Widget.php:36
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:237
 msgid "Title"
 msgstr "عنوان"
 
@@ -1560,196 +1577,205 @@ msgstr "هفته"
 msgid "Month"
 msgstr "ماه"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:52
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:54
 msgid "Custom Setting"
 msgstr "تنظیمات سفارشی"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:53
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:55
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:70
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:72
 msgid "Download & Upload Request"
 msgstr "درخواست دانلود و آپلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:73
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:75
 msgid "Pages"
 msgstr "صفحات"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:77
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:79
 msgid "Request Parent"
 msgstr "درخواست والد"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:82
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:94
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:84
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:96
 msgid "Download Page"
 msgstr "صفحه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:87
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:89
 msgid "Upload Page"
 msgstr "صفحه آپلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:96
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:98
 msgid "Download Page Configuration"
 msgstr "پیکربندی صفحه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:99
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:101
 msgid "Download Section"
 msgstr "بخش دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:103
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:105
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:108
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:110
 msgid "Download Button"
 msgstr "دکمه دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:113
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:115
 msgid "Download Message"
 msgstr "پیام دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:114
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:116
 msgid "Use below button to download file."
 msgstr "برای دانلود فایل ار دکمه زیر استفاده کنید."
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:118
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:120
 msgid "Start Button"
 msgstr "دکمه شروع"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:123
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:125
 msgid "Start Message"
 msgstr "پیام شروع"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:124
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:126
 msgid "Use below button to start download."
 msgstr "برای شروع دانلود از دکمه زیر استفاده کنید."
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:129
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:131
 msgid "Illegal Access"
 msgstr "دسترسی غیرمجاز"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:133
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:135
 msgid "Behavior"
 msgstr "رفتار"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:134
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:136
 msgid "Redirect"
 msgstr "ریدایرکت"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:135
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:137
 msgid "Show a Message"
 msgstr "نمایش یک پیام"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:142
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:144
 msgid "Message"
 msgstr "پیام"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:143
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:147
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:145
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:149
 #, php-format
 msgid "If users try access to download page with illegal parameters, %s."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:143
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:145
 msgid "this message display to theme"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:146
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:148
 msgid "Redirect to"
 msgstr "ریدایرکت به"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:147
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:149
 msgid "redirect to selected page"
 msgstr "ریدایرکت به صفحه انتخاب شده"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:152
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:154
 msgid "User Waiting"
 msgstr "انتظار کاربر"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:155
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:157
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:156
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:158
 msgid ""
 "Check this option If you want users to wait a bit on the download page before "
 "downloading."
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:161
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:163
 msgid "Second"
 msgstr "ثانیه"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:166
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:168
 msgid "Waiting Message"
 msgstr "پیام انتظار"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:173
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:175
 msgid "Cloud Storage"
 msgstr "فضای ذخیره ابری"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:175
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:177
 msgid "Storage Configuration"
 msgstr "پیکربندی فضای ذخیره سازی"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:178
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:180
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:229
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:182
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:184
 msgid "Valid Mimetypes"
 msgstr ""
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:183
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:185
 msgid "PDF"
 msgstr "فایل پی دی اف"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:184
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:186
 msgid "ZIP"
 msgstr "فایل زیپ"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:185
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:187
 msgid "DOCX"
 msgstr "فایل ورد"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:191
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:193
 msgid "WooCommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:193
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:195
 msgid "WooCommerce Configuration"
 msgstr "پیکربندی ووکامرس"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:196
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:198
 msgid "Subdomain"
 msgstr "ساب‌دامین"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:200
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:202
 msgid "Taxonomy"
 msgstr "طبقه‌بندی"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:201
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:203
 msgid "Determine which taxonomy used as subdomain."
 msgstr "مشخص کنید کدام نوع طبقه‌بندی به عنوان ساب‌دامین مورد استفاده قرار گیرد."
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:206
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:208
 msgid "Download List"
 msgstr "لیست دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:210
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:212
 #, fuzzy
 #| msgid "Download Title"
 msgid "Download Title Mask"
 msgstr "عنوان دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:211
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:213
 msgid "Download Title"
 msgstr "عنوان دانلود"
 
-#: src/Pmpr/Custom/Filefox/Setting/Setting.php:215
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:217
 msgid "Child Card Footer Text"
 msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:226
+msgid "Configure Badges"
+msgstr ""
+
+#: src/Pmpr/Custom/Filefox/Setting/Setting.php:233
+msgid "Items"
+msgstr "آیتم‌ها‌"
 
 #: src/Pmpr/Custom/Filefox/Storage/Model/Account.php:21
 #: src/Pmpr/Custom/Filefox/Storage/Model/Replica.php:54

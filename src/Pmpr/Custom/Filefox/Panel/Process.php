@@ -4,4 +4,4 @@
     |             68cc702f57cf5             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Filefox; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { }
+ namespace Pmpr\Custom\Filefox\Panel; use Pmpr\Common\Foundation\Process\Queue; class Process extends Queue { }
