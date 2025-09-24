@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68d3b9627d1fc             |
+    |             68d3d18a9bcb6             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Filefox\CPT; use Pmpr\Common\Foundation\CPT; use Pmpr\Common\Foundation\Interfaces\Constants; class News extends CPT { public function mgoeqkosywwaoqyw() { parent::mgoeqkosywwaoqyw(); $this->oyeskqayoscwciem()->wsekoqmcyeuyegam()->wakugsseussemkka([Constants::qescuiwgsyuikume, Constants::yaiacqocwcgmooio, Constants::syooqwmkmsmgwcqw, Constants::goumieeyyqigueiw, Constants::egwoacukmsioosum, Constants::aymgsswocykmwwku])->wiskakymeaywyeuw(true)->ckaeqgiaiqwsccke(6)->muuwuqssqkaieqge(__('News', PR__CST__FILEFOX))->guiaswksukmgageq(__('The News', PR__CST__FILEFOX))->acqyqaaeeogkosoq(Constants::qgciomgukmcwscqw)->yioesawwewqaigow('dashicons-admin-site-alt'); } }
