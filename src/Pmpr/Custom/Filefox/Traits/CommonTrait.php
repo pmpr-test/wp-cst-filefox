@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68e580378ea69             |
+    |             68e580ca63ac7             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Filefox\Traits; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Custom\Filefox\Setting\Setting; use WP_Post; trait CommonTrait { public function mqyuouguewuyeioy() { return $this->weysguygiseoukqw(Setting::ecssqkmociymqkso); } public function eikmwwusgumqyika($post, ?string $aiowsaccomcoikus = Constants::ouywiegeiyuaaawo) { $qqakqoekigkcmyek = false; $seumokooiykcomco = $this->caokeucsksukesyo()->ayueggmoqeeukqmq(); if ($seumokooiykcomco->ccwssmqgyasqqcoc($post, Constants::oguseymmyyoyaako)) { $qqakqoekigkcmyek = $seumokooiykcomco->kckogqkiycqeumoa($post, $this->mqyuouguewuyeioy(), [Constants::yewiqemgmmucemey => true]); if ($qqakqoekigkcmyek) { switch ($aiowsaccomcoikus) { default: case Constants::ouywiegeiyuaaawo: $qqakqoekigkcmyek = $this->caokeucsksukesyo()->kckogqkiycqeumoa()->aqcogscycyycgkuq($qqakqoekigkcmyek); break; } } } return $qqakqoekigkcmyek; } public function imqksoqiawkuqies($ayseywwqeyucsime) { $umkkkaqkwugkemce = $this->caokeucsksukesyo()->ayueggmoqeeukqmq()->uoaamyooqkiyowsc([Constants::ymckmcsiymwqucoq => Constants::oyaoekcogwkcekcc, Constants::uouymeyqasaeckso => Constants::oguseymmyyoyaako, Constants::cuoyscoiacswuauq => [[Constants::ascagqcquwgmygkm => '_downloadable_files', Constants::ciyoccqkiamemcmm => '"' . $ayseywwqeyucsime . '"', Constants::ykemsyouoqyoaysg => Constants::augocsiaqqukkuui]], Constants::emaqisaegesowaqy => true]); return $umkkkaqkwugkemce; } }
